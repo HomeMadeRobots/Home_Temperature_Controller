@@ -1,0 +1,13 @@
+#ifndef E_SETTING_MODE_H
+#define E_SETTING_MODE_H
+
+typedef enum {
+    NO_SETTING,
+	DAY_SETTING,
+	HOUR_SETTING,
+	MINUTE_SETTING,
+    LOW_TEMPERATURE_SETTING,
+    HIGH_TEMPERATURE_SETTING
+} E_Setting_Mode;
+
+#endif
