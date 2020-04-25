@@ -1,13 +1,13 @@
 #include "Display_Manager.h"
 
 
-
 /* Required Component_Prototypes */
 #include "HTC_Clock.h"
 #include "Setting_Manager.h"
 #include "HTC_LCD.h"
 #include "Air_Temperature_Sensor.h"
 #include "Mode_Manager.h"
+#include "Boiler_Manager.h"
 
 
 /*============================================================================*/
@@ -30,10 +30,8 @@ Class_Triggered_Timer Backlight_Timer =
 
     /* Constants attributes */
     /* uint32_t Recurrence */
-    500
+    1000
 };
-
-
 
 static Display_Manager_Class_Var Display_Manager_Var =
 {
@@ -59,6 +57,8 @@ const Display_Manager_Class Display_Manager =
     &Air_Temp_Sens__Air_Temperature,
     /* HTC_Mode* Operating_Mode */
     &Mode_Mgr__Operating_Mode,
+    /* Target_Home_Temperatures* Target_Temperatures */
+    &Boiler_Manager__Temperatures,
     
     /* Associated objects */
     &Backlight_Timer

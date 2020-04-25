@@ -16,6 +16,7 @@
 #include "LCD_Special_Character_Config.h"
 #include "Ambient_Air_Temperature.h"
 #include "../Mode_Manager/HTC_Mode.h"
+#include "../Boiler_Manager/Target_Home_Temperatures.h"
 
 
 /* Associated objects */
@@ -41,6 +42,7 @@ typedef struct {
     const LCD_Special_Character_Config* LCD_Config;
     const Ambient_Air_Temperature* Mesured_Temperature;
     const HTC_Mode* Operating_Mode;
+    const Target_Home_Temperatures* Target_Temperatures;
     
     /* Associated objects */
     const Class_Triggered_Timer* Backlight_Timer;
@@ -51,6 +53,7 @@ typedef struct {
 /*============================================================================*/
 /* Component_Operations */
 /*============================================================================*/
+void Display_Mgr__Initialize( void );
 void Display_Mgr__Update_All_Displays( void );
 
 

@@ -21,11 +21,11 @@
 static Boiler_Manager_Class_Var Boiler_Manager_Attr =
 {
     /* T_Ambient_Air_Temperature Low_Temperature */
-    TEMPERATURE_15_DEG_CELCIUS,
+    TEMPERATURE_20_DEG_CELCIUS,
     /* T_Ambient_Air_Temperature High_Temperature */
-    TEMPERATURE_25_DEG_CELCIUS,
+    TEMPERATURE_20_DEG_CELCIUS,
     /* T_Ambient_Air_Temperature Targeted_Temperature */
-    TEMPERATURE_15_DEG_CELCIUS
+    TEMPERATURE_20_DEG_CELCIUS
 };
 
 const Boiler_Manager_Class Boiler_Manager =
@@ -56,7 +56,7 @@ const Target_Home_Temperatures_Setting Boiler_Manager__Temperatures_Setting =
     Boiler_Mgr_Class__Temperatures_Setting__Decrease_High_Temperature
 };
 /*----------------------------------------------------------------------------*/
-const Target_Home_Temperatures HTC_Boiler_Manager__Temperatures =
+const Target_Home_Temperatures Boiler_Manager__Temperatures =
 {
     Boiler_Mgr_Class__Temperatures__Get_High_Temperature,
     Boiler_Mgr_Class__Temperatures__Get_Low_Temperature

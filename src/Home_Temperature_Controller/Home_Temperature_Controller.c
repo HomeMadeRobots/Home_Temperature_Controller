@@ -20,6 +20,7 @@
 
 #include "../Component_Prototypes/Display_Manager.h"
 
+#include "../Component_Prototypes/Boiler_Manager.h"
 
 void HTC__Init( void )
 {
@@ -32,6 +33,7 @@ void HTC__Init( void )
     Arduino_DOP__Initialize( &DO_Pin_LCD_Backlight );
     Arduino_DOP__Initialize( &Boiler_Relay_Pin );
     LCD4BDAct__Initialize( &HTC_LCD );
+    Display_Mgr__Initialize();
 }
 
 void HTC__Task_5ms( void )
@@ -42,6 +44,11 @@ void HTC__Task_5ms( void )
 void HTC__Task_500ms( void )
 {
     Clock__Tick( &HTC_Clock );
+}
+
+void HTC__Task_1000ms( void )
+{
     DS18B20__Cyclic( &Air_Temperature_Sensor );
+    Boiler_Manager__Pilot_Boiler();
     Display_Mgr__Update_All_Displays();
 }

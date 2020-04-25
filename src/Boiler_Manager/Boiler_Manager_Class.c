@@ -10,9 +10,9 @@ extern const Boiler_Manager_Class Boiler_Manager;
 /*============================================================================*/
 /* Attributes access */
 /*============================================================================*/
-#define My_Low_Temperature Boiler_Manager.var_attr->Low_Temperature
-#define My_High_Temperature Boiler_Manager.var_attr->High_Temperature
-#define My_Targeted_Temperature Boiler_Manager.var_attr->Targeted_Temperature
+#define My_Low_Temperature (Boiler_Manager.var_attr->Low_Temperature)
+#define My_High_Temperature (Boiler_Manager.var_attr->High_Temperature)
+#define My_Targeted_Temperature (Boiler_Manager.var_attr->Targeted_Temperature)
 
 
 /*============================================================================*/
@@ -51,12 +51,12 @@ static void Regulate_Temperature( void );
 /*============================================================================*/
 void Boiler_Manager__Pilot_Boiler( void )
 {
-	/* Check which temperature (HIGH or LOW) shall be targeted depending on 
+    /* Check which temperature (HIGH or LOW) shall be targeted depending on 
     clock and mode. */
-	Compute_Targeted_Temperature();
-	/* Pilot the boiler depending on the target temprature value and the 
+    Compute_Targeted_Temperature();
+    /* Pilot the boiler depending on the target temprature value and the 
     measured temperature. */
-	Regulate_Temperature();    
+    Regulate_Temperature();    
 }
 
 
@@ -132,107 +132,107 @@ void Boiler_Mgr_Class__Temperatures__Get_Low_Temperature(
 /*============================================================================*/
 static void Compute_Targeted_Temperature( void )
 {
-	E_HTC_Mode operating_mode = LOW_MODE;
-	E_Day current_day = MONDAY;
-	
-	Mode__Get_Operating_Mode( &operating_mode );
-	
-	/* Regulate the home temperature depending on the operating mode */
-	switch( operating_mode )
-	{
-		case NORMAL_MODE :
-			Clock__Get_Day( &current_day );
-			switch( current_day )
-			{
-				case MONDAY :
-					Compute_Targeted_Temperature_Workday();
-					break;
-				case TUESDAY :
-					Compute_Targeted_Temperature_Workday();
-					break;
-				case WEDNESDAY :
-					Compute_Targeted_Temperature_Homeday();
-					break;
-				case THURSDAY :
-					Compute_Targeted_Temperature_Homeday();
-					break;
-				case FRIDAY :
-					Compute_Targeted_Temperature_Workday();
-					break;
-				case SATURDAY :
-					Compute_Targeted_Temperature_Homeday();
-					break;
-				case SUNDAY :
-					Compute_Targeted_Temperature_Homeday();
-					break;
-				default :
-					My_Targeted_Temperature = My_Low_Temperature;
-					break;
-			}
-			break;
-		case HIGH_MODE :
-			My_Targeted_Temperature = My_High_Temperature;
-			break;
-		case LOW_MODE :
-			My_Targeted_Temperature = My_Low_Temperature;
-			break;
-		case HOMEDAY_MODE :
-			Compute_Targeted_Temperature_Homeday();
-			break;
-		default :
-			My_Targeted_Temperature = My_Low_Temperature;
-			break;
-	}    
+    E_HTC_Mode operating_mode = LOW_MODE;
+    E_Day current_day = MONDAY;
+    
+    Mode__Get_Operating_Mode( &operating_mode );
+    
+    /* Regulate the home temperature depending on the operating mode */
+    switch( operating_mode )
+    {
+        case NORMAL_MODE :
+            Clock__Get_Day( &current_day );
+            switch( current_day )
+            {
+                case MONDAY :
+                    Compute_Targeted_Temperature_Workday();
+                    break;
+                case TUESDAY :
+                    Compute_Targeted_Temperature_Workday();
+                    break;
+                case WEDNESDAY :
+                    Compute_Targeted_Temperature_Homeday();
+                    break;
+                case THURSDAY :
+                    Compute_Targeted_Temperature_Homeday();
+                    break;
+                case FRIDAY :
+                    Compute_Targeted_Temperature_Workday();
+                    break;
+                case SATURDAY :
+                    Compute_Targeted_Temperature_Homeday();
+                    break;
+                case SUNDAY :
+                    Compute_Targeted_Temperature_Homeday();
+                    break;
+                default :
+                    My_Targeted_Temperature = My_Low_Temperature;
+                    break;
+            }
+            break;
+        case HIGH_MODE :
+            My_Targeted_Temperature = My_High_Temperature;
+            break;
+        case LOW_MODE :
+            My_Targeted_Temperature = My_Low_Temperature;
+            break;
+        case HOMEDAY_MODE :
+            Compute_Targeted_Temperature_Homeday();
+            break;
+        default :
+            My_Targeted_Temperature = My_Low_Temperature;
+            break;
+    }    
 }
 /*----------------------------------------------------------------------------*/
 static void Compute_Targeted_Temperature_Workday( void )
 {
-	/*
-	During holiday, the target temperature is HIGH from 06:30 to 07:29 and then
+    /*
+    During holiday, the target temperature is HIGH from 06:30 to 07:29 and then
     from 17:00 to 21:59.
-	*/
-	uint8_t current_hour = 0;
-	uint8_t current_minute = 0;
-	Clock__Get_Hour( &current_hour );
-	Clock__Get_Minute( &current_minute );
+    */
+    uint8_t current_hour = 0;
+    uint8_t current_minute = 0;
+    Clock__Get_Hour( &current_hour );
+    Clock__Get_Minute( &current_minute );
 
 
-	if(    ( current_hour==6 && current_minute>=30 )	/* 06:30 <-> 06:59 */
-		|| ( current_hour==7 && current_minute<30 )		/* 07:00 <-> 07:29 */
-	    || ( current_hour >= 17 && current_hour < 22 )	/* 17:00 <-> 21:59 */
-	  )
-	{
-		My_Targeted_Temperature = My_High_Temperature;
-	}
-	else
-	{
-		My_Targeted_Temperature = My_Low_Temperature;
-	}    
+    if(    ( current_hour==6 && current_minute>=30 )    /* 06:30 <-> 06:59 */
+        || ( current_hour==7 && current_minute<30 )        /* 07:00 <-> 07:29 */
+        || ( current_hour >= 17 && current_hour < 22 )    /* 17:00 <-> 21:59 */
+      )
+    {
+        My_Targeted_Temperature = My_High_Temperature;
+    }
+    else
+    {
+        My_Targeted_Temperature = My_Low_Temperature;
+    }    
 }
 /*----------------------------------------------------------------------------*/
 static void Compute_Targeted_Temperature_Homeday( void )
 {
-	/*
-	During home day, the target temperature is HIGH from 06:30 to 21:59.
-	*/
-	uint8_t current_hour = 0;
-	uint8_t current_minute = 0;
-	Clock__Get_Hour( &current_hour );
-	Clock__Get_Minute( &current_minute );
-	
-	
-	if(    (current_hour==6 && current_minute>=30) 
+    /*
+    During home day, the target temperature is HIGH from 06:30 to 21:59.
+    */
+    uint8_t current_hour = 0;
+    uint8_t current_minute = 0;
+    Clock__Get_Hour( &current_hour );
+    Clock__Get_Minute( &current_minute );
+    
+    
+    if(    (current_hour==6 && current_minute>=30) 
         || (current_hour>=7 && current_hour<22)     )
-	{ /* from 06:30 to 21:59 */
-		My_Targeted_Temperature = My_High_Temperature;
-	}
-	else
-	{
-		My_Targeted_Temperature = My_Low_Temperature;
-	}    
+    { /* from 06:30 to 21:59 */
+        My_Targeted_Temperature = My_High_Temperature;
+    }
+    else
+    {
+        My_Targeted_Temperature = My_Low_Temperature;
+    }    
 }
 /*----------------------------------------------------------------------------*/
 static void Regulate_Temperature( void )
 {
-    
+    Relay_Cmd__Open_Circuit();
 }

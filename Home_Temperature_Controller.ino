@@ -24,9 +24,15 @@ void loop( void )
         HTC__Task_5ms();     
         
         /* Task_500ms */
-		if( tick==100 )
+		if( (tick%100)==0 )
 		{
 			HTC__Task_500ms();
+		}
+        
+        /* Task_1000ms */
+		if( tick==200 )
+		{
+			HTC__Task_1000ms();
             tick = 0;
 		}
 	}

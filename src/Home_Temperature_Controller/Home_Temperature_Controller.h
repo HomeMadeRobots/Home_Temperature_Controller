@@ -5,5 +5,6 @@ void HTC__Init( void );
 
 void HTC__Task_5ms( void );
 void HTC__Task_500ms( void );
+void HTC__Task_1000ms( void );
 
 #endif
