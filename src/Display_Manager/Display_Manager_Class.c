@@ -6,7 +6,7 @@
 
 extern const Display_Manager_Class Display_Manager;
 
-
+#define DEGREE_CHARACTER_ID 0
 #define MOON_CHARACTER_ID 1
 #define SUN_CHARACTER_ID 2
 
@@ -71,9 +71,13 @@ static void Print_Air_Temperature( T_Ambient_Air_Temperature temperature );
 /*============================================================================*/
 void Display_Mgr__Initialize( void )
 {
+    uint8_t degree_character_map[8] = { 7, 5, 7, 0, 0, 0, 0, 0 };
     uint8_t moon_character_map[8] = { 0, 0, 12, 24, 24, 24, 12, 0 };
     uint8_t sun_character_map[8] = { 0, 0, 21, 14, 31, 14, 21, 0 };
-    
+
+    LCD_Config__Create_Character(
+        DEGREE_CHARACTER_ID,
+        degree_character_map );
     LCD_Config__Create_Character(
         MOON_CHARACTER_ID,
         moon_character_map );
@@ -135,9 +139,9 @@ void Display_Mgr__Update_All_Displays( void )
                 LCD_Cmd__Print("Unknow   ");
                 break;
         }
-        
+
         LCD_Cmd__Set_Cursor_Position( 1, 11 );
-        
+
         /* Display hour */
         char num_str[3];
         sprintf( num_str, "%02u", current_hour );
@@ -239,9 +243,9 @@ void Display_Mgr__Keypad_Used( void )
     Display_Mgr__Update_All_Displays();
     LCD_Cmd__Turn_On_Backlight();
     LCD_Cmd__Show_Text();
-    
+
     /* Restart timer for 15s */
-    Class_Triggered_Timer__Start( Display_Manager.Backlight_Timer, 3000 );
+    Class_Triggered_Timer__Start( Display_Manager.Backlight_Timer, 15000 );
 }
 
 
@@ -260,16 +264,16 @@ static void Print_Air_Temperature( T_Ambient_Air_Temperature temperature )
 {
     uint16_t decimal_part = 0;
     uint16_t integer_part = 0;
-    
+
     if( temperature <= TEMPERATURE_0_DEG_CELCIUS )
     {
-        LCD_Cmd__Print(" 0.0 C");
+        LCD_Cmd__Print(" 0.0");
     }
     else
     {
         decimal_part = ((uint16_t)temperature) & 0x000F;
         integer_part = ((uint16_t)temperature)/16;
-        
+
         /* Print integer part */
         if( integer_part > 99 )
         {
@@ -278,15 +282,18 @@ static void Print_Air_Temperature( T_Ambient_Air_Temperature temperature )
         char temp_char[3];
         sprintf( temp_char, "%02u", integer_part );
         LCD_Cmd__Print(temp_char);
-        
+
         /* Print decimal part */
         if( decimal_part >= TEMPERATURE_0_DOT_5_DEG_CELCIUS )
         {
-            LCD_Cmd__Print(".5 C");
+            LCD_Cmd__Print(".5");
         }
         else
         {
-            LCD_Cmd__Print(".0 C");
+            LCD_Cmd__Print(".0");
         }
     }
+    /* Print unit */
+    LCD_Cmd__Print_Special_Character( DEGREE_CHARACTER_ID );
+    LCD_Cmd__Print("C");
 }
