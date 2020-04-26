@@ -25,6 +25,10 @@
 #include "../Mode_Manager/HTC_Mode.h"
 
 
+/* Inner objects */
+#include "Class_Turn_On_Off_Delay.h"
+
+
 /*============================================================================*/
 /* Component_Type */
 /*============================================================================*/
@@ -38,12 +42,15 @@ typedef struct {
 
     /* Variable attributes */
     Boiler_Manager_Class_Var* var_attr;
-    
+
     /* Required interfaces */
     const Clock_Data* Clock;
     const Ambient_Air_Temperature* Mesured_Temperature;
     const Relay_Actuation_Requests* Relay_Cmd;
     const HTC_Mode* Mode;
+
+    /* Inner objects */
+    const Class_Turn_On_Off_Delay* Anti_Bounce_Delay;
 
 } Boiler_Manager_Class;
 
@@ -51,6 +58,7 @@ typedef struct {
 /*============================================================================*/
 /* Component_Operations */
 /*============================================================================*/
+void Boiler_Manager__Initialize( void );
 void Boiler_Manager__Pilot_Boiler( void );
 
 
@@ -66,5 +74,6 @@ void Boiler_Mgr_Class__Temperatures__Get_High_Temperature(
     T_Ambient_Air_Temperature* temperature );
 void Boiler_Mgr_Class__Temperatures__Get_Low_Temperature(
     T_Ambient_Air_Temperature* temperature );
+
 
 #endif

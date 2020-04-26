@@ -19,14 +19,14 @@ extern const Boiler_Manager_Class Boiler_Manager;
 /* Required interfaces access */
 /*============================================================================*/
 #define Clock__Get_Day( day ) \
-        Boiler_Manager.Clock->Get_Day( day )            
+        Boiler_Manager.Clock->Get_Day( day )
 #define Clock__Get_Hour( hour ) \
         Boiler_Manager.Clock->Get_Hour( hour )
 #define Clock__Get_Minute( minute ) \
-        Boiler_Manager.Clock->Get_Minute( minute )       
+        Boiler_Manager.Clock->Get_Minute( minute )
  
-#define Mesured_Temperature__Get_Air_Temperature( temp ) \
-        Boiler_Manager.Mesured_Temperature->Get_Air_Temperature( temp )
+#define Mesured_Temperature__Get_Temperature \
+        Boiler_Manager.Mesured_Temperature->Get_Temperature
 
 #define Relay_Cmd__Close_Circuit \
         Boiler_Manager.Relay_Cmd->Close_Circuit
@@ -49,8 +49,15 @@ static void Regulate_Temperature( void );
 /*============================================================================*/
 /* Component_Operations */
 /*============================================================================*/
+void Boiler_Manager__Initialize( void )
+{
+    Relay_Cmd__Open_Circuit();
+}
+/*----------------------------------------------------------------------------*/
 void Boiler_Manager__Pilot_Boiler( void )
 {
+    Turn_On_Off_Delay__Tick( Boiler_Manager.Anti_Bounce_Delay );
+
     /* Check which temperature (HIGH or LOW) shall be targeted depending on 
     clock and mode. */
     Compute_Targeted_Temperature();
@@ -122,9 +129,6 @@ void Boiler_Mgr_Class__Temperatures__Get_Low_Temperature(
 {
     *temperature = My_Low_Temperature;
 }
-/*----------------------------------------------------------------------------*/
-
-
 
 
 /*============================================================================*/
@@ -234,5 +238,25 @@ static void Compute_Targeted_Temperature_Homeday( void )
 /*----------------------------------------------------------------------------*/
 static void Regulate_Temperature( void )
 {
-    Relay_Cmd__Open_Circuit();
+    T_Ambient_Air_Temperature mesured_temperature = TEMPERATURE_25_DEG_CELCIUS;
+    
+    Mesured_Temperature__Get_Temperature( &mesured_temperature );
+
+    if( mesured_temperature>=My_Targeted_Temperature )
+    {
+        Turn_On_Off_Delay__Reset( Boiler_Manager.Anti_Bounce_Delay );
+    }
+    else if( mesured_temperature<My_Targeted_Temperature )
+    {
+        Turn_On_Off_Delay__Set( Boiler_Manager.Anti_Bounce_Delay );
+    }
+
+    if( true==Turn_On_Off_Delay__Get( Boiler_Manager.Anti_Bounce_Delay ) )
+    {
+        Relay_Cmd__Close_Circuit();
+    }
+    else
+    {
+        Relay_Cmd__Open_Circuit();
+    }
 }

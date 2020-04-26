@@ -220,11 +220,11 @@ void Display_Mgr__Update_All_Displays( void )
                 LCD_Cmd__Blink_Cursor();
                 break;
             case LOW_TEMPERATURE_SETTING :
-                LCD_Cmd__Set_Cursor_Position( 2, 3 );
+                LCD_Cmd__Set_Cursor_Position( 2, 5 );
                 LCD_Cmd__Blink_Cursor();
                 break;
             case HIGH_TEMPERATURE_SETTING :
-                LCD_Cmd__Set_Cursor_Position( 2, 12 );
+                LCD_Cmd__Set_Cursor_Position( 2, 14 );
                 LCD_Cmd__Blink_Cursor();
                 break;
             default :

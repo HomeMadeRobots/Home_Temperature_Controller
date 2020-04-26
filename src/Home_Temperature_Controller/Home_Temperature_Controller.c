@@ -33,6 +33,7 @@ void HTC__Init( void )
     Arduino_DOP__Initialize( &DO_Pin_LCD_Backlight );
     Arduino_DOP__Initialize( &Boiler_Relay_Pin );
     LCD4BDAct__Initialize( &HTC_LCD );
+    Boiler_Manager__Initialize();
     Display_Mgr__Initialize();
 }
 
