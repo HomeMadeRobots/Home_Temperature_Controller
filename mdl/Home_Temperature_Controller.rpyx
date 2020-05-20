@@ -13,7 +13,38 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
+						<size type="a">3</size>
+						<IPropertySubject type="e">
+							<_Name type="a">Browser</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Settings</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">2</size>
+												<IProperty type="e">
+													<_Name type="a">DisplayMode</_Name>
+													<_Value type="a">Flat</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">Flat,Meta-class</_ExtraTypeInfo>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowOrder</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
 						<IPropertySubject type="e">
 							<_Name type="a">CG</_Name>
 							<Metaclasses type="c">
@@ -39,14 +70,38 @@
 							</Metaclasses>
 						</IPropertySubject>
 						
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Model</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">PackageIsSavedUnit</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
 					</IRPYRawContainer>
 				</Subjects>
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">Home_Temperature_Controller</_name>
-			<_modifiedTimeWeak type="a">4.24.2020::15:42:41</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.24.2020::15:42:41</_modifiedTime>
-			<_lastID type="a">1</_lastID>
+			<_modifiedTimeWeak type="a">5.20.2020::9:21:9</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.20.2020::9:21:9</_modifiedTime>
+			<_lastID type="a">2</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
 					<size type="a">16</size>
@@ -128,6 +183,7 @@
 				<value>GUID fb48d6a1-4193-4abc-a7e4-2e98bfe4df96</value>
 				<value>GUID bb29a72d-49ef-4089-aecf-c6eccb6b7ac8</value>
 				<value>GUID 345a19dd-5a18-482d-9c44-ea3320f3c7c1</value>
+				<value>GUID f155c765-0b32-4c64-8568-03b88a6abccc</value>
 				<value>GUID c1f05fa8-b47a-430d-8771-1afc3b7ef879</value>
 			</AggregatesList>
 		</IProject>
@@ -159,6 +215,10 @@
 			<fileName type="a">Home_Temperature_Controller</fileName>
 			<_id type="a">GUID 345a19dd-5a18-482d-9c44-ea3320f3c7c1</_id>
 		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">System_Description</fileName>
+			<_id type="a">GUID f155c765-0b32-4c64-8568-03b88a6abccc</_id>
+		</ISubsystem>
 		<IComponent type="e">
 			<_id type="a">GUID c1f05fa8-b47a-430d-8771-1afc3b7ef879</_id>
 			<_myState type="a">139264</_myState>
@@ -175,7 +235,7 @@
 			</m_configActive>
 			<HandlesInMe type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">5</size>
+					<size type="a">6</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IProfile</_hm2Class>
@@ -209,6 +269,13 @@
 							<_hm2Class type="a">ISubsystem</_hm2Class>
 							<_hname type="a">Home_Temperature_Controller</_hname>
 							<_hid type="a">GUID 345a19dd-5a18-482d-9c44-ea3320f3c7c1</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hname type="a">System_Description</_hname>
+							<_hid type="a">GUID f155c765-0b32-4c64-8568-03b88a6abccc</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>

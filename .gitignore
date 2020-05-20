@@ -1,2 +1,4 @@
 *.rpwx
 *.log
+*.save
+*.ehl
