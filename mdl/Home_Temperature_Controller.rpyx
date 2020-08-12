@@ -105,9 +105,9 @@
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">Home_Temperature_Controller</_name>
-			<_modifiedTimeWeak type="a">8.9.2020::13:50:7</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.9.2020::13:50:7</_modifiedTime>
-			<_lastID type="a">3</_lastID>
+			<_modifiedTimeWeak type="a">8.12.2020::10:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.12.2020::10:9:5</_modifiedTime>
+			<_lastID type="a">6</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
 					<size type="a">16</size>
@@ -207,6 +207,7 @@
 				<value>GUID 7d83f21c-6113-4392-aab2-7be2bbf4f7bf</value>
 				<value>GUID f491a5aa-9aba-4fed-82f4-69481e798cf4</value>
 				<value>GUID 228fbc2d-89b3-427c-8668-bd67eaa0afc1</value>
+				<value>GUID 5face2eb-b299-4d40-8c54-08b3feefa190</value>
 				<value>GUID c1f05fa8-b47a-430d-8771-1afc3b7ef879</value>
 			</AggregatesList>
 		</IProject>
@@ -314,6 +315,10 @@
 			<_id type="a">GUID 228fbc2d-89b3-427c-8668-bd67eaa0afc1</_id>
 			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
 		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">Home_Temperature_Controller_Internal_Design</fileName>
+			<_id type="a">GUID 5face2eb-b299-4d40-8c54-08b3feefa190</_id>
+		</ISubsystem>
 		<IComponent type="e">
 			<_id type="a">GUID c1f05fa8-b47a-430d-8771-1afc3b7ef879</_id>
 			<_myState type="a">139264</_myState>
@@ -330,7 +335,7 @@
 			</m_configActive>
 			<HandlesInMe type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">18</size>
+					<size type="a">19</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IProfile</_hm2Class>
@@ -455,6 +460,13 @@
 							<_hm2Class type="a">ISubsystem</_hm2Class>
 							<_hname type="a">Relay_Actuator</_hname>
 							<_hid type="a">GUID 228fbc2d-89b3-427c-8668-bd67eaa0afc1</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hname type="a">Home_Temperature_Controller_Internal_Design</_hname>
+							<_hid type="a">GUID 5face2eb-b299-4d40-8c54-08b3feefa190</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
