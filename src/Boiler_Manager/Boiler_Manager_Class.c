@@ -1,5 +1,6 @@
 #include "Boiler_Manager_Class.h"
 
+#include <stddef.h> /* NULL */
 
 /*============================================================================*/
 /* Singleton */
@@ -56,7 +57,11 @@ void Boiler_Manager__Initialize( void )
 /*----------------------------------------------------------------------------*/
 void Boiler_Manager__Pilot_Boiler( void )
 {
-    Turn_On_Off_Delay__Tick( Boiler_Manager.Anti_Bounce_Delay );
+    Class_Delay* delay_ref = NULL;
+
+    /* Tick the timer of the delay */
+    delay_ref = (Class_Delay*)(Boiler_Manager.Anti_Bounce_Delay);
+    Class_Triggered_Timer__Tick( delay_ref->My_Timer );
 
     /* Check which temperature (HIGH or LOW) shall be targeted depending on 
     clock and mode. */
@@ -244,14 +249,14 @@ static void Regulate_Temperature( void )
 
     if( mesured_temperature>=My_Targeted_Temperature )
     {
-        Turn_On_Off_Delay__Reset( Boiler_Manager.Anti_Bounce_Delay );
+        Delay__Reset( (Class_Delay*)Boiler_Manager.Anti_Bounce_Delay );
     }
     else if( mesured_temperature<My_Targeted_Temperature )
     {
-        Turn_On_Off_Delay__Set( Boiler_Manager.Anti_Bounce_Delay );
+        Delay__Set( (Class_Delay*)Boiler_Manager.Anti_Bounce_Delay );
     }
 
-    if( true==Turn_On_Off_Delay__Get( Boiler_Manager.Anti_Bounce_Delay ) )
+    if( true==Delay__Get( (Class_Delay*)Boiler_Manager.Anti_Bounce_Delay ) )
     {
         Relay_Cmd__Close_Circuit();
     }

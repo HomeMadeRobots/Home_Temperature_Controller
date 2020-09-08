@@ -24,7 +24,7 @@ static const Class_Turn_On_Off_Delay Anti_Bounce_Delay;
 
 static void Delay_Timer__Time_Is_Up( void )
 {
-    Turn_On_Off_Delay__Timer_Is_Up( &Anti_Bounce_Delay );
+    Delay__Timer_Is_Up( (Class_Delay*)&Anti_Bounce_Delay );
 }
 
 static Class_Triggered_Timer_Var Delay_Timer_Var = 
@@ -49,32 +49,43 @@ const Class_Triggered_Timer Delay_Timer =
 
 static Class_Turn_On_Off_Delay_Var Anti_Bounce_Delay_Var =
 {
-    /* bool Is_Output_On */
-    false,
-    /* bool Is_Input_On */
+    /* Inheritance */
+    {
+        /* Is_Output_On:bool */
+        false
+    },
+    
+    /* Is_Input_On:bool */
     false
 };
 
 static const Class_Turn_On_Off_Delay Anti_Bounce_Delay =
 {
-    /* Variable attributes */
-    &Anti_Bounce_Delay_Var,    
+    /* Inheritance */
+    {
+        /* Variable attributes */
+        (Class_Delay_Var*)&Anti_Bounce_Delay_Var,
 
-    /* Sent events */
-    /* Delay_Is_Up */
-    NULL,
+        /* Virtual operations */
+        &Turn_On_Off_Delay_Operations,
+    
+        /* Sent events */
+        /* Delay_Is_Up */
+        NULL,
+    
+        /* Associated objects */
+        /* Class_Triggered_Timer* My_Timer */
+        &Delay_Timer,
 
-    /* Associated objects */
-    /* Class_Triggered_Timer* My_Timer */
-    &Delay_Timer,
+        /* Constants attributes */
+        /* uint32_t Delay_Duration:uint32_t */
+        120000
+    },
 
-    /* Constants attributes */
-    /* uint32_t Turn_On_Delay_Duration */
-    120000,
-    /* uint32_t Turn_Off_Delay_Duration */
+    /* Configuration_Parameters */
+    /* Off_Delay_Duration:uint32_t */
     30000
 };
-
 
 static Boiler_Manager_Class_Var Boiler_Manager_Attr =
 {
