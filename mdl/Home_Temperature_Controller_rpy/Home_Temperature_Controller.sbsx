@@ -17,18 +17,18 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
-							<_hname type="a">PSWA_Package</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Software_Package</_hname>
 							<_hid type="a">GUID afb0e42d-a399-4819-bb39-46f0fd0f0fbf</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.12.2020::15:57:57</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.12.2020::15:57:57</_modifiedTime>
-			<_lastID type="a">25</_lastID>
-			<weakCGTime type="a">8.12.2020::15:57:57</weakCGTime>
+			<_modifiedTimeWeak type="a">12.24.2020::10:10:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.24.2020::10:10:14</_modifiedTime>
+			<_lastID type="a">26</_lastID>
+			<weakCGTime type="a">12.24.2020::10:10:14</weakCGTime>
 			<strongCGTime type="a">4.24.2020::15:42:32</strongCGTime>
 			<_defaultComposite type="s">GUID f2048739-4231-4b46-ae9c-0139b7422a4d</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -41,6 +41,7 @@
 				<value>GUID afb6b09e-54fc-4707-9b19-9d356b64d1b4</value>
 				<value>GUID f2048739-4231-4b46-ae9c-0139b7422a4d</value>
 				<value>GUID bfc0ce99-0753-48a4-ae40-8513df8f3e0e</value>
+				<value>GUID 4989ed71-fe65-4ca5-bea9-0b079ad70805</value>
 			</AggregatesList>
 		</ISubsystem>
 		<ISubsystem type="e">
@@ -53,22 +54,22 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
-							<_hname type="a">PSWA_Package</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Software_Package</_hname>
 							<_hid type="a">GUID afb0e42d-a399-4819-bb39-46f0fd0f0fbf</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.12.2020::6:58:42</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.24.2020::10:4:28</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">Gathers software elements dedicated to the boiler management.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">8.12.2020::6:58:42</_modifiedTime>
+			<_modifiedTime type="a">12.24.2020::10:4:28</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">8.12.2020::6:58:42</weakCGTime>
+			<weakCGTime type="a">12.24.2020::10:4:28</weakCGTime>
 			<strongCGTime type="a">8.9.2020::13:28:41</strongCGTime>
 			<_defaultComposite type="s">GUID 3a35ac7c-7234-4f8d-8e8c-0620310ba2e8</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -253,8 +254,8 @@
 				<_text type="a">Class diagram of Component_Type Boiler_Manager_Class.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">8.10.2020::14:10:51</_modifiedTime>
-			<_lastModifiedTime type="a">8.10.2020::14:10:51</_lastModifiedTime>
+			<_modifiedTime type="a">12.4.2020::13:49:52</_modifiedTime>
+			<_lastModifiedTime type="a">12.4.2020::13:49:52</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1285,10 +1286,11 @@
 					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_AdditionalLabel>
+			<m_bFramesetModified type="a">1</m_bFramesetModified>
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=50%25,50%25&gt;
+			<frameset type="a">&lt;frameset rows=52%25,48%25&gt;
 &lt;frame name=DescriptionCompartment&gt;
 &lt;frame name=OperationListCompartment&gt;</frameset>
 			<Attrs type="c">
@@ -2374,15 +2376,15 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.12.2020::6:59:59</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.24.2020::10:4:28</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">Singleton Component_Type dedicated to the home temperature controller project.%0D
 Its role is to pilot the relay actuating the boiler depending on the clock, the current measured air temperature and the operating mode. It provides services to set and get the targeted temperatures.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">8.12.2020::6:59:59</_modifiedTime>
+			<_modifiedTime type="a">12.24.2020::10:4:28</_modifiedTime>
 			<_lastID type="a">8</_lastID>
-			<weakCGTime type="a">8.12.2020::6:59:59</weakCGTime>
+			<weakCGTime type="a">12.24.2020::10:4:28</weakCGTime>
 			<strongCGTime type="a">8.9.2020::13:33:57</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -2968,7 +2970,7 @@ Its role is to pilot the relay actuating the boiler depending on the clock, the 
 		<IPrimitiveOperation type="e">
 			<_id type="a">GUID bf1b6dc3-a02a-4622-be6c-089629803b54</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Initialize</_name>
+			<_name type="a">Stop_Boiler</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -2977,14 +2979,18 @@ Its role is to pilot the relay actuating the boiler depending on the clock, the 
 							<_hm2Class type="a">IStereotype</_hm2Class>
 							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
-							<_hname type="a">Component_Operation</_hname>
+							<_hname type="a">OS_Operation</_hname>
 							<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::13:58:57</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::13:58:57</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.24.2020::10:3:6</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Open the relay piloting the boiler in oreder to stop it.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">12.24.2020::10:3:6</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -3020,14 +3026,18 @@ Its role is to pilot the relay actuating the boiler depending on the clock, the 
 							<_hm2Class type="a">IStereotype</_hm2Class>
 							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
-							<_hname type="a">Component_Operation</_hname>
+							<_hname type="a">OS_Operation</_hname>
 							<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::13:59:1</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::13:59:1</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.24.2020::10:4:28</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Regulate the home temperature to the targeted temperature.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">12.24.2020::10:4:28</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -3061,18 +3071,18 @@ Its role is to pilot the relay actuating the boiler depending on the clock, the 
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
-							<_hname type="a">PSWA_Package</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Software_Package</_hname>
 							<_hid type="a">GUID afb0e42d-a399-4819-bb39-46f0fd0f0fbf</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.11.2020::13:47:1</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.11.2020::13:47:1</_modifiedTime>
+			<_modifiedTimeWeak type="a">11.6.2020::15:3:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::15:3:45</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">8.11.2020::13:47:1</weakCGTime>
+			<weakCGTime type="a">11.6.2020::15:3:45</weakCGTime>
 			<strongCGTime type="a">8.9.2020::13:57:32</strongCGTime>
 			<_defaultComposite type="s">GUID f7507737-842d-4cef-97f3-bff47341c5d4</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -5173,10 +5183,10 @@ Its role is to pilot the relay actuating the boiler depending on the clock, the 
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.11.2020::13:46:54</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.11.2020::13:46:54</_modifiedTime>
+			<_modifiedTimeWeak type="a">11.6.2020::15:3:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::15:3:45</_modifiedTime>
 			<_lastID type="a">10</_lastID>
-			<weakCGTime type="a">8.11.2020::13:46:54</weakCGTime>
+			<weakCGTime type="a">11.6.2020::15:3:45</weakCGTime>
 			<strongCGTime type="a">8.9.2020::13:58:32</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -5983,14 +5993,14 @@ Its role is to pilot the relay actuating the boiler depending on the clock, the 
 							<_hm2Class type="a">IStereotype</_hm2Class>
 							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
-							<_hname type="a">Component_Operation</_hname>
+							<_hname type="a">OS_Operation</_hname>
 							<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.11.2020::13:46:52</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.11.2020::13:46:52</_modifiedTime>
+			<_modifiedTimeWeak type="a">11.6.2020::15:3:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::15:3:45</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -6026,7 +6036,7 @@ Its role is to pilot the relay actuating the boiler depending on the clock, the 
 							<_hm2Class type="a">IStereotype</_hm2Class>
 							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
-							<_hname type="a">Component_Operation</_hname>
+							<_hname type="a">OS_Operation</_hname>
 							<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
 						</IHandle>
 					
@@ -6067,9 +6077,9 @@ Its role is to pilot the relay actuating the boiler depending on the clock, the 
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
-							<_hname type="a">PSWA_Package</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Software_Package</_hname>
 							<_hid type="a">GUID afb0e42d-a399-4819-bb39-46f0fd0f0fbf</_hid>
 						</IHandle>
 					
@@ -7325,9 +7335,9 @@ Each time the event Mode_Button_Pressed is received, the current operating is mo
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
-							<_hname type="a">PSWA_Package</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Software_Package</_hname>
 							<_hid type="a">GUID afb0e42d-a399-4819-bb39-46f0fd0f0fbf</_hid>
 						</IHandle>
 					
@@ -10016,8 +10026,8 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.12.2020::15:58:6</_modifiedTime>
-			<_lastModifiedTime type="a">8.12.2020::15:58:6</_lastModifiedTime>
+			<_modifiedTime type="a">12.15.2020::8:49:0</_modifiedTime>
+			<_lastModifiedTime type="a">12.15.2020::8:49:0</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -12671,7 +12681,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Boiler_Manager_Mesured_Temperature_Air_Temperature_Sensor_Ambient_Air_Temperature</m_str>
+					<m_str type="a">Boiler_Manager__Mesured_Temperature__Air_Temperature_Sensor__Ambient_Air_Temperature</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -12686,12 +12696,11 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 1220 538  1220 655  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">32 0 </m_SourcePort>
-			<m_TargetPort type="a">32 10 </m_TargetPort>
+			<m_SourcePort type="a">34 36 </m_SourcePort>
+			<m_TargetPort type="a">34 36 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -13095,7 +13104,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Boiler_Manager_Relay_Cmd_Boiler_Relay_Actuator_Relay_Actuation</m_str>
+					<m_str type="a">Boiler_Manager__Relay_Cmd__Boiler_Relay_Actuator__Relay_Actuation</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -13113,8 +13122,8 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">32 0 </m_SourcePort>
-			<m_TargetPort type="a">32 10 </m_TargetPort>
+			<m_SourcePort type="a">34 36 </m_SourcePort>
+			<m_TargetPort type="a">34 36 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -13422,7 +13431,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Boiler_Relay_Actuator_Discrete_Pin_Boiler_Relay_Pin_Discrete_Pin</m_str>
+					<m_str type="a">Boiler_Relay_Actuator__Discrete_Pin__Boiler_Relay_Pin__Discrete_Pin</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -14389,7 +14398,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Display_Manager_Mesured_Temperature_Air_Temperature_Sensor_Ambient_Air_Temperature</m_str>
+					<m_str type="a">Display_Manager__Mesured_Temperature__Air_Temperature_Sensor__Ambient_Air_Temperature</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -14407,8 +14416,8 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">32 0 </m_SourcePort>
-			<m_TargetPort type="a">32 10 </m_TargetPort>
+			<m_SourcePort type="a">38 48 </m_SourcePort>
+			<m_TargetPort type="a">38 48 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -14511,7 +14520,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Display_Manager_Target_Temperatures_Boiler_Manager_Temperatures</m_str>
+					<m_str type="a">Display_Manager__Target_Temperatures__Boiler_Manager__Temperatures</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -14529,8 +14538,8 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">32 0 </m_SourcePort>
-			<m_TargetPort type="a">32 10 </m_TargetPort>
+			<m_SourcePort type="a">34 36 </m_SourcePort>
+			<m_TargetPort type="a">34 36 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -14934,7 +14943,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Boiler_Manager_Clock_HTC_Clock_Data</m_str>
+					<m_str type="a">Boiler_Manager__Clock__HTC_Clock__Data</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -14949,12 +14958,11 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 834 1016  834 883  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">32 0 </m_SourcePort>
-			<m_TargetPort type="a">32 10 </m_TargetPort>
+			<m_SourcePort type="a">34 36 </m_SourcePort>
+			<m_TargetPort type="a">34 36 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -15057,7 +15065,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Display_Manager_Clock_HTC_Clock_Data</m_str>
+					<m_str type="a">Display_Manager__Clock__HTC_Clock__Data</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -15072,12 +15080,11 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 577 1016  577 931  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">32 0 </m_SourcePort>
-			<m_TargetPort type="a">32 10 </m_TargetPort>
+			<m_SourcePort type="a">38 48 </m_SourcePort>
+			<m_TargetPort type="a">38 48 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -15961,7 +15968,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Display_Manager_Keypad_Used_HTC_Keypad_Any_Button_Pressed</m_str>
+					<m_str type="a">Display_Manager__Keypad_Used__HTC_Keypad__Any_Button_Pressed</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -15979,8 +15986,8 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">32 0 </m_SourcePort>
-			<m_TargetPort type="a">32 10 </m_TargetPort>
+			<m_SourcePort type="a">34 36 </m_SourcePort>
+			<m_TargetPort type="a">34 36 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -17056,7 +17063,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Display_Manager_LCD_Cmd_HTC_LCD_Commands</m_str>
+					<m_str type="a">Display_Manager__LCD_Cmd__HTC_LCD__Commands</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -17074,8 +17081,8 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">32 0 </m_SourcePort>
-			<m_TargetPort type="a">32 10 </m_TargetPort>
+			<m_SourcePort type="a">34 36 </m_SourcePort>
+			<m_TargetPort type="a">34 36 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -17178,7 +17185,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Display_Manager_LCD_Config_HTC_LCD_Special_Character_Config</m_str>
+					<m_str type="a">Display_Manager__LCD_Config__HTC_LCD__Special_Character_Config</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -17196,8 +17203,8 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">32 0 </m_SourcePort>
-			<m_TargetPort type="a">32 10 </m_TargetPort>
+			<m_SourcePort type="a">34 36 </m_SourcePort>
+			<m_TargetPort type="a">34 36 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -17300,7 +17307,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">HTC_LCD_Backlight_Pin_DO_Pin_LCD_Backlight_Discrete_Pin</m_str>
+					<m_str type="a">HTC_LCD__Backlight_Pin__DO_Pin_LCD_Backlight__Discrete_Pin</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -17422,7 +17429,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">HTC_LCD_Data_4_Pin_DO_Pin_LCD_Data_4_Discrete_Pin</m_str>
+					<m_str type="a">HTC_LCD__Data_4_Pin__DO_Pin_LCD_Data_4__Discrete_Pin</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -17544,7 +17551,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">HTC_LCD_Data_5_Pin_DO_Pin_LCD_Data_5_Discrete_Pin</m_str>
+					<m_str type="a">HTC_LCD__Data_5_Pin__DO_Pin_LCD_Data_5__Discrete_Pin</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -17666,7 +17673,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">HTC_LCD_Data_6_Pin_DO_Pin_LCD_Data_6_Discrete_Pin</m_str>
+					<m_str type="a">HTC_LCD__Data_6_Pin__DO_Pin_LCD_Data_6__Discrete_Pin</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -17788,7 +17795,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">HTC_LCD_Data_7_Pin_DO_Pin_LCD_Data_7_Discrete_Pin</m_str>
+					<m_str type="a">HTC_LCD__Data_7_Pin__DO_Pin_LCD_Data_7__Discrete_Pin</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -17910,7 +17917,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">HTC_LCD_Enable_Pin_DO_Pin_LCD_Enable_Discrete_Pin</m_str>
+					<m_str type="a">HTC_LCD__Enable_Pin__DO_Pin_LCD_Enable__Discrete_Pin</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -18032,7 +18039,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">HTC_LCD_Register_Select_Pin_DO_Pin_LCD_Register_Select_Discrete_Pin</m_str>
+					<m_str type="a">HTC_LCD__Register_Select_Pin__DO_Pin_LCD_Register_Select__Discrete_Pin</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -18359,7 +18366,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">HTC_Keypad_Analog_Pin_Keypad_Pin_Analogic_Pin</m_str>
+					<m_str type="a">HTC_Keypad__Analog_Pin__Keypad_Pin__Analogic_Pin</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -18774,7 +18781,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Boiler_Manager_Mode_Mode_Manager_Operating_Mode</m_str>
+					<m_str type="a">Boiler_Manager__Mode__Mode_Manager__Operating_Mode</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -18789,12 +18796,11 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 1118 1445  1118 812  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">32 0 </m_SourcePort>
-			<m_TargetPort type="a">32 10 </m_TargetPort>
+			<m_SourcePort type="a">34 36 </m_SourcePort>
+			<m_TargetPort type="a">34 36 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -18897,7 +18903,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Display_Manager_Operating_Mode_Mode_Manager_Operating_Mode</m_str>
+					<m_str type="a">Display_Manager__Operating_Mode__Mode_Manager__Operating_Mode</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -18915,8 +18921,8 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">32 0 </m_SourcePort>
-			<m_TargetPort type="a">32 10 </m_TargetPort>
+			<m_SourcePort type="a">38 48 </m_SourcePort>
+			<m_TargetPort type="a">38 48 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -19019,7 +19025,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Mode_Manager_Mode_Button_Pressed_HTC_Keypad_Select_Button_Pressed</m_str>
+					<m_str type="a">Mode_Manager__Mode_Button_Pressed__HTC_Keypad__Select_Button_Pressed</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -19037,8 +19043,8 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">32 10 </m_SourcePort>
-			<m_TargetPort type="a">32 1 </m_TargetPort>
+			<m_SourcePort type="a">34 36 </m_SourcePort>
+			<m_TargetPort type="a">34 36 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -19346,7 +19352,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Air_Temperature_Sensor_One_Wire_Comm_One_Wire_Communication</m_str>
+					<m_str type="a">Air_Temperature_Sensor__One_Wire_Comm__One_Wire__Communication</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -20221,7 +20227,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Display_Manager_Setting_Mode_Setting_Manager_Setting_Mode</m_str>
+					<m_str type="a">Display_Manager__Setting_Mode__Setting_Manager__Setting_Mode</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -20239,8 +20245,8 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">32 0 </m_SourcePort>
-			<m_TargetPort type="a">32 10 </m_TargetPort>
+			<m_SourcePort type="a">34 36 </m_SourcePort>
+			<m_TargetPort type="a">34 36 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -20343,7 +20349,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Setting_Manager_Clock_Setting_HTC_Clock_Setting</m_str>
+					<m_str type="a">Setting_Manager__Clock_Setting__HTC_Clock__Setting</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -20361,8 +20367,8 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">32 10 </m_SourcePort>
-			<m_TargetPort type="a">32 0 </m_TargetPort>
+			<m_SourcePort type="a">34 36 </m_SourcePort>
+			<m_TargetPort type="a">34 36 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -20465,7 +20471,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Setting_Manager_Decrease_Setting_Button_Pressed_HTC_Keypad_Down_Button_Pressed</m_str>
+					<m_str type="a">Setting_Manager__Decrease_Setting_Button_Pressed__HTC_Keypad__Down_Button_Pressed</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -20483,8 +20489,8 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">32 10 </m_SourcePort>
-			<m_TargetPort type="a">32 0 </m_TargetPort>
+			<m_SourcePort type="a">34 36 </m_SourcePort>
+			<m_TargetPort type="a">34 36 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -20587,7 +20593,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Setting_Manager_Increase_Setting_Button_Pressed_HTC_Keypad_Up_Button_Pressed</m_str>
+					<m_str type="a">Setting_Manager__Increase_Setting_Button_Pressed__HTC_Keypad__Up_Button_Pressed</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -20605,8 +20611,8 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">32 10 </m_SourcePort>
-			<m_TargetPort type="a">32 0 </m_TargetPort>
+			<m_SourcePort type="a">34 36 </m_SourcePort>
+			<m_TargetPort type="a">34 36 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -20709,7 +20715,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Setting_Manager_Next_Setting_Button_Pressed_HTC_Keypad_Right_Button_Pressed</m_str>
+					<m_str type="a">Setting_Manager__Next_Setting_Button_Pressed__HTC_Keypad__Right_Button_Pressed</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -20727,8 +20733,8 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">32 10 </m_SourcePort>
-			<m_TargetPort type="a">32 0 </m_TargetPort>
+			<m_SourcePort type="a">34 36 </m_SourcePort>
+			<m_TargetPort type="a">34 36 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -20831,7 +20837,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Setting_Manager_Previous_Setting_Button_Pressed_HTC_Keypad_Left_Button_Pressed</m_str>
+					<m_str type="a">Setting_Manager__Previous_Setting_Button_Pressed__HTC_Keypad__Left_Button_Pressed</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -20849,8 +20855,8 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">32 10 </m_SourcePort>
-			<m_TargetPort type="a">32 0 </m_TargetPort>
+			<m_SourcePort type="a">34 36 </m_SourcePort>
+			<m_TargetPort type="a">34 36 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -20953,7 +20959,7 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Setting_Manager_Temperature_Setting_Boiler_Manager_Temperatures_Setting</m_str>
+					<m_str type="a">Setting_Manager__Temperature_Setting__Boiler_Manager__Temperatures_Setting</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -20968,12 +20974,11 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 481 1027  481 864  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">32 10 </m_SourcePort>
-			<m_TargetPort type="a">32 0 </m_TargetPort>
+			<m_SourcePort type="a">34 36 </m_SourcePort>
+			<m_TargetPort type="a">34 36 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -21072,10 +21077,10 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.11.2020::11:59:7</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.11.2020::11:59:7</_modifiedTime>
-			<_lastID type="a">29</_lastID>
-			<weakCGTime type="a">8.11.2020::11:59:7</weakCGTime>
+			<_modifiedTimeWeak type="a">12.24.2020::10:10:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.24.2020::10:10:14</_modifiedTime>
+			<_lastID type="a">33</_lastID>
+			<weakCGTime type="a">12.24.2020::10:10:14</weakCGTime>
 			<strongCGTime type="a">8.4.2020::8:52:51</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -21083,6 +21088,10 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
+				<value>GUID 334e230a-d967-494d-a636-a00994b5d472</value>
+				<value>GUID 6fe53659-1599-4889-b947-101aea51317b</value>
+				<value>GUID c238b9b4-8f61-41a7-a770-7780e16ab0d7</value>
+				<value>GUID 16006665-7944-4abd-86ae-715f60106a7f</value>
 				<value>GUID 733d3967-37c3-47da-94ad-5b1c730808d7</value>
 				<value>GUID 97b925df-61de-445e-a5bf-df6c76ceb5d6</value>
 				<value>GUID 2eb3eff8-15c1-44cd-840e-108cd97a5f2b</value>
@@ -21133,6 +21142,2059 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 				<value>GUID 63c5a495-6404-4e69-a9cd-15569b847bca</value>
 			</AggregatesList>
 		</IClass>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 334e230a-d967-494d-a636-a00994b5d472</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">HTC__Init</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
+							<_hname type="a">OS_Task</_hname>
+							<_hid type="a">GUID e4ca771f-e5e8-4770-97a8-5197730fb880</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">11.6.2020::15:0:27</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::15:0:27</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+			<AggregatesList type="e">
+				<value>GUID 6ee03432-26ea-4a8e-8c3e-8ed39ed006c3</value>
+				<value>GUID 0101c093-7a89-4b31-9dc6-4ae37023ad5d</value>
+				<value>GUID f4371d25-9f4c-48d1-a68d-858776d483e0</value>
+				<value>GUID 0c0e5e4d-ec28-4b6f-b701-3b821a052cfc</value>
+				<value>GUID 25653c69-89dc-4a2b-a4fd-0d599b461c09</value>
+				<value>GUID 1d1a3475-2c5b-41fd-bfc0-d86dcac8a81b</value>
+				<value>GUID 2e10bc61-25a3-491e-9451-2b8b0534de87</value>
+				<value>GUID 47da3e7c-8c78-4bd3-9201-9cafdc5a1f7f</value>
+				<value>GUID d35667ec-9203-4029-9e1b-1387724804cc</value>
+				<value>GUID 929b9a1f-573b-4966-9696-53b4f589d255</value>
+				<value>GUID 9342e4b2-fc49-407b-a5ab-d25b81280b3c</value>
+			</AggregatesList>
+		</IPrimitiveOperation>
+		<IDependency type="e">
+			<_id type="a">GUID 6ee03432-26ea-4a8e-8c3e-8ed39ed006c3</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DO_Pin_LCD_Register_Select</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Operation_Delegation</_hname>
+							<_hid type="a">GUID e7cfdec5-4b56-48d6-b81c-e078cb8c8158</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">11.6.2020::14:55:20</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:55:20</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hid type="a">GUID b7082b61-a537-4e1d-9575-ea823d4af9a2</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hid type="a">GUID 334e230a-d967-494d-a636-a00994b5d472</_hid>
+				</INObjectHandle>
+			</_dependent>
+			<AggregatesList type="e">
+				<value>GUID 51b6e546-75f2-4d89-ab14-a8747e82c96e</value>
+				<value>GUID 4841ccc5-ffbe-44bb-adb0-7a07c747920e</value>
+			</AggregatesList>
+		</IDependency>
+		<ITag type="e">
+			<_id type="a">GUID 51b6e546-75f2-4d89-ab14-a8747e82c96e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">OS_Operation_Ref</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:55:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:55:17</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IStereotype</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
+					<_hname type="a">OS_Operation</_hname>
+					<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">OS_Operation_Ref</_hname>
+					<_hid type="a">GUID 9a5d3d31-286f-4f66-819b-7c09280b09e4</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 19b348e3-e43b-45c0-8e58-ec4e593b807e</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID 19b348e3-e43b-45c0-8e58-ec4e593b807e</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hfilename type="a">.\..\..\..\libraries\Arduino_Pin\mdl\Arduino_Pin_Mdl_rpy\Arduino_Pin.sbsx</_hfilename>
+					<_hsubsystem type="a">Arduino_Pin</_hsubsystem>
+					<_hclass type="a">Arduino_Discrete_Output_Pin</_hclass>
+					<_hname type="a">Initialize()</_hname>
+					<_hid type="a">GUID 5e44898e-4a30-495c-9ebc-b3eb13f1f949</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<ITag type="e">
+			<_id type="a">GUID 4841ccc5-ffbe-44bb-adb0-7a07c747920e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Priority</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:55:20</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:55:20</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpInteger</_hname>
+					<_hid type="a">GUID 9503fd72-4374-4a1d-9a70-b60508d8f583</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">Priority</_hname>
+					<_hid type="a">GUID c8b6e70e-5aca-422e-b8de-970a6298a8a1</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID c9d3827a-175f-4abf-a234-824622683ab9</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID c9d3827a-175f-4abf-a234-824622683ab9</_id>
+			<_modifiedTimeWeak type="a">11.6.2020::14:55:20</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:55:20</_modifiedTime>
+			<_value type="a">1</_value>
+		</ILiteralSpecification>
+		<IDependency type="e">
+			<_id type="a">GUID 0101c093-7a89-4b31-9dc6-4ae37023ad5d</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DO_Pin_LCD_Enable</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Operation_Delegation</_hname>
+							<_hid type="a">GUID e7cfdec5-4b56-48d6-b81c-e078cb8c8158</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">11.6.2020::14:55:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:55:46</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hid type="a">GUID 5185f9e3-a6dc-48c2-985b-3c11e76cb36b</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hid type="a">GUID 334e230a-d967-494d-a636-a00994b5d472</_hid>
+				</INObjectHandle>
+			</_dependent>
+			<AggregatesList type="e">
+				<value>GUID 39800778-885d-4ee2-a91b-76f2aa208d0a</value>
+				<value>GUID 211587f0-68aa-4379-a526-38d14ba69bfa</value>
+			</AggregatesList>
+		</IDependency>
+		<ITag type="e">
+			<_id type="a">GUID 39800778-885d-4ee2-a91b-76f2aa208d0a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">OS_Operation_Ref</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:55:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:55:45</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IStereotype</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
+					<_hname type="a">OS_Operation</_hname>
+					<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">OS_Operation_Ref</_hname>
+					<_hid type="a">GUID 9a5d3d31-286f-4f66-819b-7c09280b09e4</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID f5d354b5-9e07-46eb-ba76-eb77e2ad571c</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID f5d354b5-9e07-46eb-ba76-eb77e2ad571c</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hfilename type="a">.\..\..\..\libraries\Arduino_Pin\mdl\Arduino_Pin_Mdl_rpy\Arduino_Pin.sbsx</_hfilename>
+					<_hsubsystem type="a">Arduino_Pin</_hsubsystem>
+					<_hclass type="a">Arduino_Discrete_Output_Pin</_hclass>
+					<_hname type="a">Initialize()</_hname>
+					<_hid type="a">GUID 5e44898e-4a30-495c-9ebc-b3eb13f1f949</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<ITag type="e">
+			<_id type="a">GUID 211587f0-68aa-4379-a526-38d14ba69bfa</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Priority</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:55:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:55:46</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpInteger</_hname>
+					<_hid type="a">GUID 9503fd72-4374-4a1d-9a70-b60508d8f583</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">Priority</_hname>
+					<_hid type="a">GUID c8b6e70e-5aca-422e-b8de-970a6298a8a1</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 0080089b-b60c-4e59-9c8c-7a8a998c0bd2</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 0080089b-b60c-4e59-9c8c-7a8a998c0bd2</_id>
+			<_modifiedTimeWeak type="a">11.6.2020::14:55:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:55:46</_modifiedTime>
+			<_value type="a">2</_value>
+		</ILiteralSpecification>
+		<IDependency type="e">
+			<_id type="a">GUID f4371d25-9f4c-48d1-a68d-858776d483e0</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DO_Pin_LCD_Data_7</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Operation_Delegation</_hname>
+							<_hid type="a">GUID e7cfdec5-4b56-48d6-b81c-e078cb8c8158</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">11.6.2020::14:57:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:57:21</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hid type="a">GUID 6cb0280f-0cd1-466f-8822-7e25f534c634</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hid type="a">GUID 334e230a-d967-494d-a636-a00994b5d472</_hid>
+				</INObjectHandle>
+			</_dependent>
+			<AggregatesList type="e">
+				<value>GUID 6e021537-2e47-4973-9d57-22e6d84a4e6c</value>
+				<value>GUID 1f04882b-af72-4587-814d-941f006e947c</value>
+			</AggregatesList>
+		</IDependency>
+		<ITag type="e">
+			<_id type="a">GUID 6e021537-2e47-4973-9d57-22e6d84a4e6c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">OS_Operation_Ref</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:57:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:57:19</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IStereotype</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
+					<_hname type="a">OS_Operation</_hname>
+					<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">OS_Operation_Ref</_hname>
+					<_hid type="a">GUID 9a5d3d31-286f-4f66-819b-7c09280b09e4</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID b4323f7a-9f91-4aba-a575-7ffd1dceddc9</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID b4323f7a-9f91-4aba-a575-7ffd1dceddc9</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hfilename type="a">.\..\..\..\libraries\Arduino_Pin\mdl\Arduino_Pin_Mdl_rpy\Arduino_Pin.sbsx</_hfilename>
+					<_hsubsystem type="a">Arduino_Pin</_hsubsystem>
+					<_hclass type="a">Arduino_Discrete_Output_Pin</_hclass>
+					<_hname type="a">Initialize()</_hname>
+					<_hid type="a">GUID 5e44898e-4a30-495c-9ebc-b3eb13f1f949</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<ITag type="e">
+			<_id type="a">GUID 1f04882b-af72-4587-814d-941f006e947c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Priority</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:57:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:57:21</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpInteger</_hname>
+					<_hid type="a">GUID 9503fd72-4374-4a1d-9a70-b60508d8f583</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">Priority</_hname>
+					<_hid type="a">GUID c8b6e70e-5aca-422e-b8de-970a6298a8a1</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID df0aac84-3da5-46d3-aa4b-2a16b84fa960</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID df0aac84-3da5-46d3-aa4b-2a16b84fa960</_id>
+			<_modifiedTimeWeak type="a">11.6.2020::14:57:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:57:21</_modifiedTime>
+			<_value type="a">3</_value>
+		</ILiteralSpecification>
+		<IDependency type="e">
+			<_id type="a">GUID 0c0e5e4d-ec28-4b6f-b701-3b821a052cfc</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DO_Pin_LCD_Data_6</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Operation_Delegation</_hname>
+							<_hid type="a">GUID e7cfdec5-4b56-48d6-b81c-e078cb8c8158</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">11.6.2020::14:57:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:57:38</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hid type="a">GUID 2786c49b-955e-4c9f-98e8-db1cc11bfa60</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hid type="a">GUID 334e230a-d967-494d-a636-a00994b5d472</_hid>
+				</INObjectHandle>
+			</_dependent>
+			<AggregatesList type="e">
+				<value>GUID 059badaa-95fd-4229-8141-1bb76bc5fe39</value>
+				<value>GUID 6e96e68a-8e9b-4cb9-b9ae-0ca65a1595c4</value>
+			</AggregatesList>
+		</IDependency>
+		<ITag type="e">
+			<_id type="a">GUID 059badaa-95fd-4229-8141-1bb76bc5fe39</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">OS_Operation_Ref</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:57:37</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:57:37</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IStereotype</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
+					<_hname type="a">OS_Operation</_hname>
+					<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">OS_Operation_Ref</_hname>
+					<_hid type="a">GUID 9a5d3d31-286f-4f66-819b-7c09280b09e4</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 119d9fb9-7218-404d-82d7-1d1176a60987</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID 119d9fb9-7218-404d-82d7-1d1176a60987</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hfilename type="a">.\..\..\..\libraries\Arduino_Pin\mdl\Arduino_Pin_Mdl_rpy\Arduino_Pin.sbsx</_hfilename>
+					<_hsubsystem type="a">Arduino_Pin</_hsubsystem>
+					<_hclass type="a">Arduino_Discrete_Output_Pin</_hclass>
+					<_hname type="a">Initialize()</_hname>
+					<_hid type="a">GUID 5e44898e-4a30-495c-9ebc-b3eb13f1f949</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<ITag type="e">
+			<_id type="a">GUID 6e96e68a-8e9b-4cb9-b9ae-0ca65a1595c4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Priority</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:57:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:57:38</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpInteger</_hname>
+					<_hid type="a">GUID 9503fd72-4374-4a1d-9a70-b60508d8f583</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">Priority</_hname>
+					<_hid type="a">GUID c8b6e70e-5aca-422e-b8de-970a6298a8a1</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 9b3589be-2e44-4006-b2e3-f7e0f76b2beb</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 9b3589be-2e44-4006-b2e3-f7e0f76b2beb</_id>
+			<_modifiedTimeWeak type="a">11.6.2020::14:57:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:57:38</_modifiedTime>
+			<_value type="a">4</_value>
+		</ILiteralSpecification>
+		<IDependency type="e">
+			<_id type="a">GUID 25653c69-89dc-4a2b-a4fd-0d599b461c09</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DO_Pin_LCD_Data_5</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Operation_Delegation</_hname>
+							<_hid type="a">GUID e7cfdec5-4b56-48d6-b81c-e078cb8c8158</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">11.6.2020::14:58:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:58:7</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hid type="a">GUID c2705349-47c2-4478-bd97-9c6de8eac6bb</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hid type="a">GUID 334e230a-d967-494d-a636-a00994b5d472</_hid>
+				</INObjectHandle>
+			</_dependent>
+			<AggregatesList type="e">
+				<value>GUID 65bf2f5e-a553-43aa-94ff-8c3e3b73c066</value>
+				<value>GUID f4368da2-778d-4521-a6c6-f8e8a113fd17</value>
+			</AggregatesList>
+		</IDependency>
+		<ITag type="e">
+			<_id type="a">GUID 65bf2f5e-a553-43aa-94ff-8c3e3b73c066</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">OS_Operation_Ref</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:57:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:57:58</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IStereotype</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
+					<_hname type="a">OS_Operation</_hname>
+					<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">OS_Operation_Ref</_hname>
+					<_hid type="a">GUID 9a5d3d31-286f-4f66-819b-7c09280b09e4</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 0a7c8a0e-6f64-43c4-930a-4a31f87db996</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID 0a7c8a0e-6f64-43c4-930a-4a31f87db996</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hfilename type="a">.\..\..\..\libraries\Arduino_Pin\mdl\Arduino_Pin_Mdl_rpy\Arduino_Pin.sbsx</_hfilename>
+					<_hsubsystem type="a">Arduino_Pin</_hsubsystem>
+					<_hclass type="a">Arduino_Discrete_Output_Pin</_hclass>
+					<_hname type="a">Initialize()</_hname>
+					<_hid type="a">GUID 5e44898e-4a30-495c-9ebc-b3eb13f1f949</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<ITag type="e">
+			<_id type="a">GUID f4368da2-778d-4521-a6c6-f8e8a113fd17</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Priority</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:58:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:58:7</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpInteger</_hname>
+					<_hid type="a">GUID 9503fd72-4374-4a1d-9a70-b60508d8f583</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">Priority</_hname>
+					<_hid type="a">GUID c8b6e70e-5aca-422e-b8de-970a6298a8a1</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 52b4bb76-c464-4462-854d-346d1ca2a7b4</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 52b4bb76-c464-4462-854d-346d1ca2a7b4</_id>
+			<_modifiedTimeWeak type="a">11.6.2020::14:58:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:58:7</_modifiedTime>
+			<_value type="a">5</_value>
+		</ILiteralSpecification>
+		<IDependency type="e">
+			<_id type="a">GUID 1d1a3475-2c5b-41fd-bfc0-d86dcac8a81b</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DO_Pin_LCD_Data_4</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Operation_Delegation</_hname>
+							<_hid type="a">GUID e7cfdec5-4b56-48d6-b81c-e078cb8c8158</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">11.6.2020::14:58:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:58:23</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hid type="a">GUID a5165414-438d-4cc2-9e0e-8286ddcfd0f9</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hid type="a">GUID 334e230a-d967-494d-a636-a00994b5d472</_hid>
+				</INObjectHandle>
+			</_dependent>
+			<AggregatesList type="e">
+				<value>GUID f4052bf0-88b1-4ad5-b5d0-68e7b83ad6c8</value>
+				<value>GUID 339a7556-f91d-4a53-a7ca-1de493f771ca</value>
+			</AggregatesList>
+		</IDependency>
+		<ITag type="e">
+			<_id type="a">GUID f4052bf0-88b1-4ad5-b5d0-68e7b83ad6c8</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">OS_Operation_Ref</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:58:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:58:21</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IStereotype</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
+					<_hname type="a">OS_Operation</_hname>
+					<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">OS_Operation_Ref</_hname>
+					<_hid type="a">GUID 9a5d3d31-286f-4f66-819b-7c09280b09e4</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 4bdad914-6221-48e3-ab22-3187d1a25797</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID 4bdad914-6221-48e3-ab22-3187d1a25797</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hfilename type="a">.\..\..\..\libraries\Arduino_Pin\mdl\Arduino_Pin_Mdl_rpy\Arduino_Pin.sbsx</_hfilename>
+					<_hsubsystem type="a">Arduino_Pin</_hsubsystem>
+					<_hclass type="a">Arduino_Discrete_Output_Pin</_hclass>
+					<_hname type="a">Initialize()</_hname>
+					<_hid type="a">GUID 5e44898e-4a30-495c-9ebc-b3eb13f1f949</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<ITag type="e">
+			<_id type="a">GUID 339a7556-f91d-4a53-a7ca-1de493f771ca</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Priority</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:58:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:58:23</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpInteger</_hname>
+					<_hid type="a">GUID 9503fd72-4374-4a1d-9a70-b60508d8f583</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">Priority</_hname>
+					<_hid type="a">GUID c8b6e70e-5aca-422e-b8de-970a6298a8a1</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 72880e8c-af6e-479c-9709-9dae202b9d00</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 72880e8c-af6e-479c-9709-9dae202b9d00</_id>
+			<_modifiedTimeWeak type="a">11.6.2020::14:58:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:58:23</_modifiedTime>
+			<_value type="a">6</_value>
+		</ILiteralSpecification>
+		<IDependency type="e">
+			<_id type="a">GUID 2e10bc61-25a3-491e-9451-2b8b0534de87</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DO_Pin_LCD_Backlight</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Operation_Delegation</_hname>
+							<_hid type="a">GUID e7cfdec5-4b56-48d6-b81c-e078cb8c8158</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">11.6.2020::14:58:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:58:44</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hid type="a">GUID 7e29f5e4-cbc7-483a-b026-3bb3369f9abf</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hid type="a">GUID 334e230a-d967-494d-a636-a00994b5d472</_hid>
+				</INObjectHandle>
+			</_dependent>
+			<AggregatesList type="e">
+				<value>GUID d8bb0d3b-36d2-48fc-a1a2-a3f0b8c0ce18</value>
+				<value>GUID e9dbce38-e08b-4f6b-9e9c-eb7b861b611a</value>
+			</AggregatesList>
+		</IDependency>
+		<ITag type="e">
+			<_id type="a">GUID d8bb0d3b-36d2-48fc-a1a2-a3f0b8c0ce18</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">OS_Operation_Ref</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:58:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:58:39</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IStereotype</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
+					<_hname type="a">OS_Operation</_hname>
+					<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">OS_Operation_Ref</_hname>
+					<_hid type="a">GUID 9a5d3d31-286f-4f66-819b-7c09280b09e4</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID f068beb7-2928-4877-9d20-cd1a92057b18</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID f068beb7-2928-4877-9d20-cd1a92057b18</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hfilename type="a">.\..\..\..\libraries\Arduino_Pin\mdl\Arduino_Pin_Mdl_rpy\Arduino_Pin.sbsx</_hfilename>
+					<_hsubsystem type="a">Arduino_Pin</_hsubsystem>
+					<_hclass type="a">Arduino_Discrete_Output_Pin</_hclass>
+					<_hname type="a">Initialize()</_hname>
+					<_hid type="a">GUID 5e44898e-4a30-495c-9ebc-b3eb13f1f949</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<ITag type="e">
+			<_id type="a">GUID e9dbce38-e08b-4f6b-9e9c-eb7b861b611a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Priority</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:58:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:58:44</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpInteger</_hname>
+					<_hid type="a">GUID 9503fd72-4374-4a1d-9a70-b60508d8f583</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">Priority</_hname>
+					<_hid type="a">GUID c8b6e70e-5aca-422e-b8de-970a6298a8a1</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 7b274423-81d3-46ec-b70c-bb8d166de164</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 7b274423-81d3-46ec-b70c-bb8d166de164</_id>
+			<_modifiedTimeWeak type="a">11.6.2020::14:58:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:58:44</_modifiedTime>
+			<_value type="a">7</_value>
+		</ILiteralSpecification>
+		<IDependency type="e">
+			<_id type="a">GUID 47da3e7c-8c78-4bd3-9201-9cafdc5a1f7f</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Boiler_Relay_Pin</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Operation_Delegation</_hname>
+							<_hid type="a">GUID e7cfdec5-4b56-48d6-b81c-e078cb8c8158</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">11.6.2020::14:59:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:59:6</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hid type="a">GUID baa4e98e-4c96-44a5-9f7e-0c02449ed624</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hid type="a">GUID 334e230a-d967-494d-a636-a00994b5d472</_hid>
+				</INObjectHandle>
+			</_dependent>
+			<AggregatesList type="e">
+				<value>GUID 81a20df5-b919-4064-b07c-a4e1bd2eabf5</value>
+				<value>GUID 5a20b97f-7435-4ce4-a231-e9735ebd4ab7</value>
+			</AggregatesList>
+		</IDependency>
+		<ITag type="e">
+			<_id type="a">GUID 81a20df5-b919-4064-b07c-a4e1bd2eabf5</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">OS_Operation_Ref</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:59:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:59:5</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IStereotype</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
+					<_hname type="a">OS_Operation</_hname>
+					<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">OS_Operation_Ref</_hname>
+					<_hid type="a">GUID 9a5d3d31-286f-4f66-819b-7c09280b09e4</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 2e4e716f-fe4b-4723-9d5a-84872fbfebff</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID 2e4e716f-fe4b-4723-9d5a-84872fbfebff</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hfilename type="a">.\..\..\..\libraries\Arduino_Pin\mdl\Arduino_Pin_Mdl_rpy\Arduino_Pin.sbsx</_hfilename>
+					<_hsubsystem type="a">Arduino_Pin</_hsubsystem>
+					<_hclass type="a">Arduino_Discrete_Output_Pin</_hclass>
+					<_hname type="a">Initialize()</_hname>
+					<_hid type="a">GUID 5e44898e-4a30-495c-9ebc-b3eb13f1f949</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<ITag type="e">
+			<_id type="a">GUID 5a20b97f-7435-4ce4-a231-e9735ebd4ab7</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Priority</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:59:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:59:6</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpInteger</_hname>
+					<_hid type="a">GUID 9503fd72-4374-4a1d-9a70-b60508d8f583</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">Priority</_hname>
+					<_hid type="a">GUID c8b6e70e-5aca-422e-b8de-970a6298a8a1</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 375e8e85-72af-4d24-be3b-1901f54900d2</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 375e8e85-72af-4d24-be3b-1901f54900d2</_id>
+			<_modifiedTimeWeak type="a">11.6.2020::14:59:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:59:6</_modifiedTime>
+			<_value type="a">8</_value>
+		</ILiteralSpecification>
+		<IDependency type="e">
+			<_id type="a">GUID d35667ec-9203-4029-9e1b-1387724804cc</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">HTC_LCD</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Operation_Delegation</_hname>
+							<_hid type="a">GUID e7cfdec5-4b56-48d6-b81c-e078cb8c8158</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">11.6.2020::14:59:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:59:39</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hid type="a">GUID 2eb3eff8-15c1-44cd-840e-108cd97a5f2b</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hid type="a">GUID 334e230a-d967-494d-a636-a00994b5d472</_hid>
+				</INObjectHandle>
+			</_dependent>
+			<AggregatesList type="e">
+				<value>GUID 90a1b95a-5d80-4c01-aa9e-6a282827edac</value>
+				<value>GUID 33895a80-638e-41aa-b605-83df6c5ccbca</value>
+			</AggregatesList>
+		</IDependency>
+		<ITag type="e">
+			<_id type="a">GUID 90a1b95a-5d80-4c01-aa9e-6a282827edac</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">OS_Operation_Ref</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:59:37</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:59:37</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IStereotype</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
+					<_hname type="a">OS_Operation</_hname>
+					<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">OS_Operation_Ref</_hname>
+					<_hid type="a">GUID 9a5d3d31-286f-4f66-819b-7c09280b09e4</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID c34348e9-d9bd-42d9-809e-7e531b9ff87d</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID c34348e9-d9bd-42d9-809e-7e531b9ff87d</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hfilename type="a">.\..\..\..\libraries\LCD_HD44780_Actuator\mdl\LCD_HD44780_Actuator_rpy\LCD_HD44780_Actuator.sbsx</_hfilename>
+					<_hsubsystem type="a">LCD_HD44780_Actuator</_hsubsystem>
+					<_hclass type="a">LCD_HD44780_4Bit_Actuator</_hclass>
+					<_hname type="a">Initialize()</_hname>
+					<_hid type="a">GUID 18d469e3-07df-4ed7-95b4-de965219bef8</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<ITag type="e">
+			<_id type="a">GUID 33895a80-638e-41aa-b605-83df6c5ccbca</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Priority</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:59:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:59:39</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpInteger</_hname>
+					<_hid type="a">GUID 9503fd72-4374-4a1d-9a70-b60508d8f583</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">Priority</_hname>
+					<_hid type="a">GUID c8b6e70e-5aca-422e-b8de-970a6298a8a1</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID b993fb3c-15df-4f9e-9976-ddf4d181e6ff</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID b993fb3c-15df-4f9e-9976-ddf4d181e6ff</_id>
+			<_modifiedTimeWeak type="a">11.6.2020::14:59:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:59:39</_modifiedTime>
+			<_value type="a">9</_value>
+		</ILiteralSpecification>
+		<IDependency type="e">
+			<_id type="a">GUID 929b9a1f-573b-4966-9696-53b4f589d255</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Boiler_Manager</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Operation_Delegation</_hname>
+							<_hid type="a">GUID e7cfdec5-4b56-48d6-b81c-e078cb8c8158</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">11.6.2020::15:0:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::15:0:6</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hid type="a">GUID 39cf5548-186b-4120-af24-0fbdffc5de8b</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hid type="a">GUID 334e230a-d967-494d-a636-a00994b5d472</_hid>
+				</INObjectHandle>
+			</_dependent>
+			<AggregatesList type="e">
+				<value>GUID 190bb085-1bb4-4dad-928b-1df6a44c43ba</value>
+				<value>GUID f5a27ccd-ed18-4437-9431-2d501a8f3a03</value>
+			</AggregatesList>
+		</IDependency>
+		<ITag type="e">
+			<_id type="a">GUID 190bb085-1bb4-4dad-928b-1df6a44c43ba</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">OS_Operation_Ref</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::15:0:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::15:0:4</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IStereotype</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
+					<_hname type="a">OS_Operation</_hname>
+					<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">OS_Operation_Ref</_hname>
+					<_hid type="a">GUID 9a5d3d31-286f-4f66-819b-7c09280b09e4</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID b94ffe2e-3585-45e3-a170-d496d57db021</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID b94ffe2e-3585-45e3-a170-d496d57db021</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hid type="a">GUID bf1b6dc3-a02a-4622-be6c-089629803b54</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<ITag type="e">
+			<_id type="a">GUID f5a27ccd-ed18-4437-9431-2d501a8f3a03</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Priority</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::15:0:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::15:0:6</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpInteger</_hname>
+					<_hid type="a">GUID 9503fd72-4374-4a1d-9a70-b60508d8f583</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">Priority</_hname>
+					<_hid type="a">GUID c8b6e70e-5aca-422e-b8de-970a6298a8a1</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 89ea6be6-80f2-445f-abeb-fef177ce6766</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 89ea6be6-80f2-445f-abeb-fef177ce6766</_id>
+			<_modifiedTimeWeak type="a">11.6.2020::15:0:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::15:0:6</_modifiedTime>
+			<_value type="a">10</_value>
+		</ILiteralSpecification>
+		<IDependency type="e">
+			<_id type="a">GUID 9342e4b2-fc49-407b-a5ab-d25b81280b3c</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Display_Manager</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Operation_Delegation</_hname>
+							<_hid type="a">GUID e7cfdec5-4b56-48d6-b81c-e078cb8c8158</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">11.6.2020::15:0:27</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::15:0:27</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hid type="a">GUID b8427b11-f130-4115-86c8-4a652b426b47</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hid type="a">GUID 334e230a-d967-494d-a636-a00994b5d472</_hid>
+				</INObjectHandle>
+			</_dependent>
+			<AggregatesList type="e">
+				<value>GUID e2c95b20-d8f1-49fd-9fd0-0d39b1068b4e</value>
+				<value>GUID fb625233-ec27-4db3-9db5-9c50ad847ab9</value>
+			</AggregatesList>
+		</IDependency>
+		<ITag type="e">
+			<_id type="a">GUID e2c95b20-d8f1-49fd-9fd0-0d39b1068b4e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">OS_Operation_Ref</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::15:0:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::15:0:24</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IStereotype</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
+					<_hname type="a">OS_Operation</_hname>
+					<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">OS_Operation_Ref</_hname>
+					<_hid type="a">GUID 9a5d3d31-286f-4f66-819b-7c09280b09e4</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID e9a027a7-4668-4965-b53b-8d3c3db62cdc</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID e9a027a7-4668-4965-b53b-8d3c3db62cdc</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hid type="a">GUID accbdd2c-0df3-468c-83e6-5a6e758e4db6</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<ITag type="e">
+			<_id type="a">GUID fb625233-ec27-4db3-9db5-9c50ad847ab9</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Priority</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::15:0:27</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::15:0:27</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpInteger</_hname>
+					<_hid type="a">GUID 9503fd72-4374-4a1d-9a70-b60508d8f583</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">Priority</_hname>
+					<_hid type="a">GUID c8b6e70e-5aca-422e-b8de-970a6298a8a1</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID e3014feb-d2c7-4358-9dbd-cdf6fd8b20a7</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID e3014feb-d2c7-4358-9dbd-cdf6fd8b20a7</_id>
+			<_modifiedTimeWeak type="a">11.6.2020::15:0:27</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::15:0:27</_modifiedTime>
+			<_value type="a">11</_value>
+		</ILiteralSpecification>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 6fe53659-1599-4889-b947-101aea51317b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">HTC__Task_5ms</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
+							<_hname type="a">OS_Task</_hname>
+							<_hid type="a">GUID e4ca771f-e5e8-4770-97a8-5197730fb880</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">11.23.2020::14:49:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::14:49:13</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+			<AggregatesList type="e">
+				<value>GUID 63dd0f8f-6cbc-4e5a-b776-16851a2d1936</value>
+			</AggregatesList>
+		</IPrimitiveOperation>
+		<IDependency type="e">
+			<_id type="a">GUID 63dd0f8f-6cbc-4e5a-b776-16851a2d1936</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">HTC_Keypad</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Operation_Delegation</_hname>
+							<_hid type="a">GUID e7cfdec5-4b56-48d6-b81c-e078cb8c8158</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">11.23.2020::14:49:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::14:49:13</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hid type="a">GUID fc049450-e3c8-452c-bd1b-1100dbe1e2f1</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hid type="a">GUID 6fe53659-1599-4889-b947-101aea51317b</_hid>
+				</INObjectHandle>
+			</_dependent>
+			<AggregatesList type="e">
+				<value>GUID 68420d31-06e8-4714-8e01-ca34179f1969</value>
+				<value>GUID 3ed4d5e7-6794-4228-9005-c22014110e5d</value>
+			</AggregatesList>
+		</IDependency>
+		<ITag type="e">
+			<_id type="a">GUID 68420d31-06e8-4714-8e01-ca34179f1969</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">OS_Operation_Ref</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:19:9</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:19:9</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IStereotype</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
+					<_hname type="a">OS_Operation</_hname>
+					<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">OS_Operation_Ref</_hname>
+					<_hid type="a">GUID 9a5d3d31-286f-4f66-819b-7c09280b09e4</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID ba3cb3a9-81e7-4c4c-97e4-318a64e68f84</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID ba3cb3a9-81e7-4c4c-97e4-318a64e68f84</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hfilename type="a">.\..\..\..\libraries\Five_Buttons_Keypad\mdl\Five_Buttons_Keypad_Mdl_rpy\Five_Buttons_Keypad.sbsx</_hfilename>
+					<_hsubsystem type="a">Five_Buttons_Keypad</_hsubsystem>
+					<_hclass type="a">Five_Buttons_Keypad</_hclass>
+					<_hname type="a">Cyclic()</_hname>
+					<_hid type="a">GUID 27405a9c-3346-4626-89ee-9d3d2bc3b583</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<ITag type="e">
+			<_id type="a">GUID 3ed4d5e7-6794-4228-9005-c22014110e5d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Priority</_name>
+			<_modifiedTimeWeak type="a">11.23.2020::14:49:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::14:49:13</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpInteger</_hname>
+					<_hid type="a">GUID 9503fd72-4374-4a1d-9a70-b60508d8f583</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">Priority</_hname>
+					<_hid type="a">GUID c8b6e70e-5aca-422e-b8de-970a6298a8a1</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 5694f155-2a93-456f-8a04-02a00752ff13</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 5694f155-2a93-456f-8a04-02a00752ff13</_id>
+			<_modifiedTimeWeak type="a">11.23.2020::14:49:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::14:49:13</_modifiedTime>
+			<_value type="a">1</_value>
+		</ILiteralSpecification>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID c238b9b4-8f61-41a7-a770-7780e16ab0d7</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">HTC__Task_500ms</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
+							<_hname type="a">OS_Task</_hname>
+							<_hid type="a">GUID e4ca771f-e5e8-4770-97a8-5197730fb880</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">11.23.2020::14:49:20</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::14:49:20</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+			<AggregatesList type="e">
+				<value>GUID 51824133-48b9-4bc0-98e6-bb9d369ecd8b</value>
+			</AggregatesList>
+		</IPrimitiveOperation>
+		<IDependency type="e">
+			<_id type="a">GUID 51824133-48b9-4bc0-98e6-bb9d369ecd8b</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">HTC_Clock</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Operation_Delegation</_hname>
+							<_hid type="a">GUID e7cfdec5-4b56-48d6-b81c-e078cb8c8158</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">11.23.2020::14:49:20</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::14:49:20</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hid type="a">GUID eec1e281-b809-459f-9c0e-30c459e95944</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hid type="a">GUID c238b9b4-8f61-41a7-a770-7780e16ab0d7</_hid>
+				</INObjectHandle>
+			</_dependent>
+			<AggregatesList type="e">
+				<value>GUID 61c4b14a-0910-446d-804b-1516f8ffbcd7</value>
+				<value>GUID 3b050b3c-80eb-457b-9a6f-0bf72ba75a88</value>
+			</AggregatesList>
+		</IDependency>
+		<ITag type="e">
+			<_id type="a">GUID 61c4b14a-0910-446d-804b-1516f8ffbcd7</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">OS_Operation_Ref</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:19:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:19:50</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IStereotype</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
+					<_hname type="a">OS_Operation</_hname>
+					<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">OS_Operation_Ref</_hname>
+					<_hid type="a">GUID 9a5d3d31-286f-4f66-819b-7c09280b09e4</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID bdf4ba60-aa72-41d0-9814-5d53ff2f963e</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID bdf4ba60-aa72-41d0-9814-5d53ff2f963e</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hfilename type="a">.\..\..\..\libraries\Clock\mdl\Clock_Mdl_rpy\Clock.sbsx</_hfilename>
+					<_hsubsystem type="a">Clock</_hsubsystem>
+					<_hclass type="a">Clock</_hclass>
+					<_hname type="a">Tick()</_hname>
+					<_hid type="a">GUID 00aadcb0-33bb-463c-8002-cacb865a916b</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<ITag type="e">
+			<_id type="a">GUID 3b050b3c-80eb-457b-9a6f-0bf72ba75a88</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Priority</_name>
+			<_modifiedTimeWeak type="a">11.23.2020::14:49:20</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::14:49:20</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpInteger</_hname>
+					<_hid type="a">GUID 9503fd72-4374-4a1d-9a70-b60508d8f583</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">Priority</_hname>
+					<_hid type="a">GUID c8b6e70e-5aca-422e-b8de-970a6298a8a1</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID cc4e21de-7633-4829-bd65-a93609641773</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID cc4e21de-7633-4829-bd65-a93609641773</_id>
+			<_modifiedTimeWeak type="a">11.23.2020::14:49:20</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::14:49:20</_modifiedTime>
+			<_value type="a">1</_value>
+		</ILiteralSpecification>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 16006665-7944-4abd-86ae-715f60106a7f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">HTC__Task_1000ms</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
+							<_hname type="a">OS_Task</_hname>
+							<_hid type="a">GUID e4ca771f-e5e8-4770-97a8-5197730fb880</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">12.24.2020::10:10:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.24.2020::10:10:14</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+			<AggregatesList type="e">
+				<value>GUID cf9dbf16-7991-406e-96fa-7519bb35c3ef</value>
+				<value>GUID 63796779-eca7-4226-8249-b0a696af4fed</value>
+				<value>GUID f8d0cc50-b846-4604-9dad-12f3db80a2c4</value>
+			</AggregatesList>
+		</IPrimitiveOperation>
+		<IDependency type="e">
+			<_id type="a">GUID cf9dbf16-7991-406e-96fa-7519bb35c3ef</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Air_Temperature_Sensor</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Operation_Delegation</_hname>
+							<_hid type="a">GUID e7cfdec5-4b56-48d6-b81c-e078cb8c8158</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">12.24.2020::10:10:14</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Mesure on 12 bits, period shall be &gt; 750 ms.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">12.24.2020::10:10:14</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hid type="a">GUID 733d3967-37c3-47da-94ad-5b1c730808d7</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hid type="a">GUID 16006665-7944-4abd-86ae-715f60106a7f</_hid>
+				</INObjectHandle>
+			</_dependent>
+			<AggregatesList type="e">
+				<value>GUID d34ad910-7b01-4564-a407-91976bac0c7e</value>
+				<value>GUID 73d3b199-dc14-4c0e-af67-c9ca3c74b117</value>
+			</AggregatesList>
+		</IDependency>
+		<ITag type="e">
+			<_id type="a">GUID d34ad910-7b01-4564-a407-91976bac0c7e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">OS_Operation_Ref</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:20:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:20:44</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IStereotype</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
+					<_hname type="a">OS_Operation</_hname>
+					<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">OS_Operation_Ref</_hname>
+					<_hid type="a">GUID 9a5d3d31-286f-4f66-819b-7c09280b09e4</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID aec1fc56-e2a9-4d5e-9be4-bc99e9a20339</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID aec1fc56-e2a9-4d5e-9be4-bc99e9a20339</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hfilename type="a">.\..\..\..\libraries\DS18B20_Ambient_Air_Temperature_Sensor\mdl\DS18B20_Ambient_Air_Temperature_Sensor_rpy\DS18B20_Ambient_Air_Temperature_Sensor.sbsx</_hfilename>
+					<_hsubsystem type="a">DS18B20_Ambient_Air_Temperature_Sensor</_hsubsystem>
+					<_hclass type="a">DS18B20_Ambient_Air_Temperature_Sensor</_hclass>
+					<_hname type="a">Cyclic()</_hname>
+					<_hid type="a">GUID 3cb140b2-2df3-40ae-9b4c-c2c457b6efa9</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<ITag type="e">
+			<_id type="a">GUID 73d3b199-dc14-4c0e-af67-c9ca3c74b117</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Priority</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:20:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:20:46</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpInteger</_hname>
+					<_hid type="a">GUID 9503fd72-4374-4a1d-9a70-b60508d8f583</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">Priority</_hname>
+					<_hid type="a">GUID c8b6e70e-5aca-422e-b8de-970a6298a8a1</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 26f5a9ce-f5c4-480b-901d-db073c89dc04</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 26f5a9ce-f5c4-480b-901d-db073c89dc04</_id>
+			<_modifiedTimeWeak type="a">11.6.2020::14:20:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:20:46</_modifiedTime>
+			<_value type="a">1</_value>
+		</ILiteralSpecification>
+		<IDependency type="e">
+			<_id type="a">GUID 63796779-eca7-4226-8249-b0a696af4fed</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Boiler_Manager</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Operation_Delegation</_hname>
+							<_hid type="a">GUID e7cfdec5-4b56-48d6-b81c-e078cb8c8158</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">12.24.2020::10:5:52</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Shall be called after home temperature measurement.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">12.24.2020::10:5:52</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hid type="a">GUID 39cf5548-186b-4120-af24-0fbdffc5de8b</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hid type="a">GUID 16006665-7944-4abd-86ae-715f60106a7f</_hid>
+				</INObjectHandle>
+			</_dependent>
+			<AggregatesList type="e">
+				<value>GUID 18cee77b-0fad-42a8-bb74-f9378237e9c0</value>
+				<value>GUID 427fcfd8-faba-4f81-bb10-542b03aee14d</value>
+			</AggregatesList>
+		</IDependency>
+		<ITag type="e">
+			<_id type="a">GUID 18cee77b-0fad-42a8-bb74-f9378237e9c0</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">OS_Operation_Ref</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:39:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:39:6</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IStereotype</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
+					<_hname type="a">OS_Operation</_hname>
+					<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">OS_Operation_Ref</_hname>
+					<_hid type="a">GUID 9a5d3d31-286f-4f66-819b-7c09280b09e4</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 0b2b3b87-dead-4f15-9adc-b17899e2ffda</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID 0b2b3b87-dead-4f15-9adc-b17899e2ffda</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hid type="a">GUID edd7e573-044a-498a-bf54-059f68d49127</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<ITag type="e">
+			<_id type="a">GUID 427fcfd8-faba-4f81-bb10-542b03aee14d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Priority</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:39:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:39:8</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpInteger</_hname>
+					<_hid type="a">GUID 9503fd72-4374-4a1d-9a70-b60508d8f583</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">Priority</_hname>
+					<_hid type="a">GUID c8b6e70e-5aca-422e-b8de-970a6298a8a1</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 3c0a0d3a-a55b-472f-b6bd-75e397fb3773</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 3c0a0d3a-a55b-472f-b6bd-75e397fb3773</_id>
+			<_modifiedTimeWeak type="a">11.6.2020::14:39:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:39:8</_modifiedTime>
+			<_value type="a">2</_value>
+		</ILiteralSpecification>
+		<IDependency type="e">
+			<_id type="a">GUID f8d0cc50-b846-4604-9dad-12f3db80a2c4</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Display_Manager</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Operation_Delegation</_hname>
+							<_hid type="a">GUID e7cfdec5-4b56-48d6-b81c-e078cb8c8158</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">11.6.2020::14:39:37</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:39:37</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hid type="a">GUID b8427b11-f130-4115-86c8-4a652b426b47</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hid type="a">GUID 16006665-7944-4abd-86ae-715f60106a7f</_hid>
+				</INObjectHandle>
+			</_dependent>
+			<AggregatesList type="e">
+				<value>GUID 78b3b122-fae5-4046-a5de-7815018db9d2</value>
+				<value>GUID be102748-af80-4661-b624-4be23b01e0de</value>
+			</AggregatesList>
+		</IDependency>
+		<ITag type="e">
+			<_id type="a">GUID 78b3b122-fae5-4046-a5de-7815018db9d2</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">OS_Operation_Ref</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:39:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:39:33</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IStereotype</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
+					<_hname type="a">OS_Operation</_hname>
+					<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">OS_Operation_Ref</_hname>
+					<_hid type="a">GUID 9a5d3d31-286f-4f66-819b-7c09280b09e4</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 19b03091-42fa-455d-9200-8a91bb5f74a1</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID 19b03091-42fa-455d-9200-8a91bb5f74a1</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hid type="a">GUID b9f0c67b-bb49-48a1-a661-1d47398e0ad3</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<ITag type="e">
+			<_id type="a">GUID be102748-af80-4661-b624-4be23b01e0de</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Priority</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:39:37</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:39:37</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpInteger</_hname>
+					<_hid type="a">GUID 9503fd72-4374-4a1d-9a70-b60508d8f583</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
+					<_hclass type="a">Operation_Delegation</_hclass>
+					<_hname type="a">Priority</_hname>
+					<_hid type="a">GUID c8b6e70e-5aca-422e-b8de-970a6298a8a1</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 9f3ac0c9-60fd-4b44-97df-ead403afec71</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 9f3ac0c9-60fd-4b44-97df-ead403afec71</_id>
+			<_modifiedTimeWeak type="a">11.6.2020::14:39:37</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:39:37</_modifiedTime>
+			<_value type="a">3</_value>
+		</ILiteralSpecification>
 		<IPart type="e">
 			<_id type="a">GUID 733d3967-37c3-47da-94ad-5b1c730808d7</_id>
 			<_myState type="a">8192</_myState>
@@ -22179,23 +24241,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID 63d15e4e-e007-454a-bc7c-632c10cf2511</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Air_Temperature_Sensor_One_Wire_Comm_One_Wire_Communication</_name>
+			<_name type="a">Air_Temperature_Sensor__One_Wire_Comm__One_Wire__Communication</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::15:1:32</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::15:1:32</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:17</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -22238,23 +24300,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID 5a06414d-3fe1-4d7a-af82-df76357115ce</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">HTC_LCD_Register_Select_Pin_DO_Pin_LCD_Register_Select_Discrete_Pin</_name>
+			<_name type="a">HTC_LCD__Register_Select_Pin__DO_Pin_LCD_Register_Select__Discrete_Pin</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::12:47:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::12:47:0</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:17</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -22297,23 +24359,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID 55ab5274-38f5-4561-b5e7-e6ed9eb97a85</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">HTC_LCD_Enable_Pin_DO_Pin_LCD_Enable_Discrete_Pin</_name>
+			<_name type="a">HTC_LCD__Enable_Pin__DO_Pin_LCD_Enable__Discrete_Pin</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::12:47:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::12:47:0</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:17</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -22356,23 +24418,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID 46568207-076c-429b-bffa-0b540601f475</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">HTC_LCD_Data_4_Pin_DO_Pin_LCD_Data_4_Discrete_Pin</_name>
+			<_name type="a">HTC_LCD__Data_4_Pin__DO_Pin_LCD_Data_4__Discrete_Pin</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::12:47:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::12:47:0</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:17</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -22415,23 +24477,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID f31208af-bf3a-4b00-96d4-ae1e6afaa339</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">HTC_LCD_Data_5_Pin_DO_Pin_LCD_Data_5_Discrete_Pin</_name>
+			<_name type="a">HTC_LCD__Data_5_Pin__DO_Pin_LCD_Data_5__Discrete_Pin</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::12:47:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::12:47:0</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:17</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -22474,23 +24536,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID ab72c87e-c60a-4fd0-8fea-d5e64e6bdc60</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">HTC_LCD_Data_6_Pin_DO_Pin_LCD_Data_6_Discrete_Pin</_name>
+			<_name type="a">HTC_LCD__Data_6_Pin__DO_Pin_LCD_Data_6__Discrete_Pin</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::12:47:1</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::12:47:1</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:17</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -22533,23 +24595,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID d2f89ac8-01f2-4ce8-b366-d28c231a7526</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">HTC_LCD_Data_7_Pin_DO_Pin_LCD_Data_7_Discrete_Pin</_name>
+			<_name type="a">HTC_LCD__Data_7_Pin__DO_Pin_LCD_Data_7__Discrete_Pin</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::12:47:1</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::12:47:1</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:17</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -22592,23 +24654,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID 427931af-281a-48af-8115-e5f1f6382204</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">HTC_LCD_Backlight_Pin_DO_Pin_LCD_Backlight_Discrete_Pin</_name>
+			<_name type="a">HTC_LCD__Backlight_Pin__DO_Pin_LCD_Backlight__Discrete_Pin</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::12:47:1</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::12:47:1</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:17</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -22651,23 +24713,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID 135950d0-982b-4ce2-b5ae-6c6bbb599eaf</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Boiler_Manager_Clock_HTC_Clock_Data</_name>
+			<_name type="a">Boiler_Manager__Clock__HTC_Clock__Data</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::15:1:43</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::15:1:43</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:17</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -22706,23 +24768,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID 02e9597d-a5dc-41b5-a96f-b56cff6e761f</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Boiler_Manager_Mesured_Temperature_Air_Temperature_Sensor_Ambient_Air_Temperature</_name>
+			<_name type="a">Boiler_Manager__Mesured_Temperature__Air_Temperature_Sensor__Ambient_Air_Temperature</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::15:1:43</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::15:1:43</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:17</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -22761,23 +24823,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID 2d1efc2c-5a60-423b-a6bd-f7ecd38470c4</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Boiler_Manager_Mode_Mode_Manager_Operating_Mode</_name>
+			<_name type="a">Boiler_Manager__Mode__Mode_Manager__Operating_Mode</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::15:1:43</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::15:1:43</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:17</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -22812,23 +24874,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID f758bc78-fe55-484b-9522-2cee9e223679</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Boiler_Manager_Relay_Cmd_Boiler_Relay_Actuator_Relay_Actuation</_name>
+			<_name type="a">Boiler_Manager__Relay_Cmd__Boiler_Relay_Actuator__Relay_Actuation</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::15:1:43</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::15:1:43</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:17</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -22867,23 +24929,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID d75fab11-9546-447f-95f9-af5b72228dc4</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Boiler_Relay_Actuator_Discrete_Pin_Boiler_Relay_Pin_Discrete_Pin</_name>
+			<_name type="a">Boiler_Relay_Actuator__Discrete_Pin__Boiler_Relay_Pin__Discrete_Pin</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::15:1:51</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::15:1:51</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:17</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -22926,23 +24988,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID 38b3c651-ce9c-4268-be13-02de0ae5cd07</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Display_Manager_Clock_HTC_Clock_Data</_name>
+			<_name type="a">Display_Manager__Clock__HTC_Clock__Data</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::15:2:4</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::15:2:4</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:17</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -22981,23 +25043,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID 5c00e826-15ae-4471-bd95-9d64383d340c</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Display_Manager_Keypad_Used_HTC_Keypad_Any_Button_Pressed</_name>
+			<_name type="a">Display_Manager__Keypad_Used__HTC_Keypad__Any_Button_Pressed</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::15:2:4</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::15:2:4</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:17</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -23036,23 +25098,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID 4be904a3-362c-47b3-8701-ffe3a02a6ed4</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Display_Manager_LCD_Cmd_HTC_LCD_Commands</_name>
+			<_name type="a">Display_Manager__LCD_Cmd__HTC_LCD__Commands</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.11.2020::11:59:7</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.11.2020::11:59:7</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:17</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -23091,23 +25153,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID 6c5e9cb4-3770-4d00-af49-8532855ff992</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Display_Manager_LCD_Config_HTC_LCD_Special_Character_Config</_name>
+			<_name type="a">Display_Manager__LCD_Config__HTC_LCD__Special_Character_Config</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::15:2:4</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::15:2:4</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:17</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -23146,23 +25208,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID fe02adcd-c755-41ec-af93-d2e71f512eb5</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Display_Manager_Mesured_Temperature_Air_Temperature_Sensor_Ambient_Air_Temperature</_name>
+			<_name type="a">Display_Manager__Mesured_Temperature__Air_Temperature_Sensor__Ambient_Air_Temperature</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::15:2:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::15:2:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:17</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -23201,23 +25263,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID 81df088f-b479-43d8-aa60-eb6b4aac26b1</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Display_Manager_Operating_Mode_Mode_Manager_Operating_Mode</_name>
+			<_name type="a">Display_Manager__Operating_Mode__Mode_Manager__Operating_Mode</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::15:2:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::15:2:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:17</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -23252,23 +25314,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID e33c8662-8889-43b1-b8f5-c837aba7e94a</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Display_Manager_Setting_Mode_Setting_Manager_Setting_Mode</_name>
+			<_name type="a">Display_Manager__Setting_Mode__Setting_Manager__Setting_Mode</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::15:2:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::15:2:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:17</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -23303,23 +25365,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID 2c74fdaa-2584-4baa-b1b8-85e039c36488</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Display_Manager_Target_Temperatures_Boiler_Manager_Temperatures</_name>
+			<_name type="a">Display_Manager__Target_Temperatures__Boiler_Manager__Temperatures</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::15:2:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::15:2:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:17</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -23354,23 +25416,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID 19925ae1-2cb9-40b0-98ab-94201ecdcd49</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Mode_Manager_Mode_Button_Pressed_HTC_Keypad_Select_Button_Pressed</_name>
+			<_name type="a">Mode_Manager__Mode_Button_Pressed__HTC_Keypad__Select_Button_Pressed</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::12:47:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::12:47:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:17</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -23409,23 +25471,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID 4f3240f0-3b43-42b0-a80d-a08ea9c70479</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Setting_Manager_Clock_Setting_HTC_Clock_Setting</_name>
+			<_name type="a">Setting_Manager__Clock_Setting__HTC_Clock__Setting</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::12:47:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::12:47:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:17</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -23464,23 +25526,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID e33faa87-e677-4b39-827c-e648612dc08b</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Setting_Manager_Temperature_Setting_Boiler_Manager_Temperatures_Setting</_name>
+			<_name type="a">Setting_Manager__Temperature_Setting__Boiler_Manager__Temperatures_Setting</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::12:47:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::12:47:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:17</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -23515,23 +25577,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID 44a85978-5792-4595-b072-8ea23ed38a60</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Setting_Manager_Next_Setting_Button_Pressed_HTC_Keypad_Right_Button_Pressed</_name>
+			<_name type="a">Setting_Manager__Next_Setting_Button_Pressed__HTC_Keypad__Right_Button_Pressed</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::12:47:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::12:47:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:18</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -23570,23 +25632,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID 5034262d-454b-4fd5-8bf2-2e1852d09fae</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Setting_Manager_Previous_Setting_Button_Pressed_HTC_Keypad_Left_Button_Pressed</_name>
+			<_name type="a">Setting_Manager__Previous_Setting_Button_Pressed__HTC_Keypad__Left_Button_Pressed</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::12:47:3</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::12:47:3</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:18</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -23625,23 +25687,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID 2dd02f17-b5ef-4c24-ae4f-64c881523674</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Setting_Manager_Increase_Setting_Button_Pressed_HTC_Keypad_Up_Button_Pressed</_name>
+			<_name type="a">Setting_Manager__Increase_Setting_Button_Pressed__HTC_Keypad__Up_Button_Pressed</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::12:47:3</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::12:47:3</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:18</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -23680,23 +25742,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID feaed73f-2185-4fa4-878c-87d584776965</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Setting_Manager_Decrease_Setting_Button_Pressed_HTC_Keypad_Down_Button_Pressed</_name>
+			<_name type="a">Setting_Manager__Decrease_Setting_Button_Pressed__HTC_Keypad__Down_Button_Pressed</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::12:47:3</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::12:47:3</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:18</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -23735,23 +25797,23 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 		<IObjectLink type="e">
 			<_id type="a">GUID 63c5a495-6404-4e69-a9cd-15569b847bca</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">HTC_Keypad_Analog_Pin_Keypad_Pin_Analogic_Pin</_name>
+			<_name type="a">HTC_Keypad__Analog_Pin__Keypad_Pin__Analogic_Pin</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Composition</_hsubsystem>
-							<_hname type="a">Assembly_Connector</_hname>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Connector_Prototype</_hname>
 							<_hid type="a">GUID 99befb32-f0c3-413e-9f84-63c4ee447063</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.10.2020::12:47:3</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.10.2020::12:47:3</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.18.2020::8:14:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.18.2020::8:14:18</_modifiedTime>
 			<_toLink type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
@@ -23791,6 +25853,34 @@ Depending on the current setting mode, the appropriate data of the HTC is modifi
 				</IHandle>
 			</_fromPort>
 		</IObjectLink>
+		<ITableInstance type="e">
+			<_id type="a">GUID 4989ed71-fe65-4ca5-bea9-0b079ad70805</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">HTC_Tasks_View</_name>
+			<_modifiedTimeWeak type="a">11.6.2020::14:53:48</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.6.2020::14:53:48</_modifiedTime>
+			<LayoutHandle type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITableLayout</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Layouts</_hsubsystem>
+					<_hname type="a">Tasks_Layout</_hname>
+					<_hid type="a">GUID c83ffca4-237a-42a7-ae46-c17ffbaedf3d</_hid>
+				</IHandle>
+			</LayoutHandle>
+			<ScopeHandles type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProject</_hm2Class>
+							<_hname type="a">Home_Temperature_Controller</_hname>
+							<_hid type="a">GUID 723fae19-da4b-4d88-beff-f04d5c1036a3</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</ScopeHandles>
+		</ITableInstance>
 		
 	</RHAPSODY-MODEL>
 	<OslcLinks type="c">

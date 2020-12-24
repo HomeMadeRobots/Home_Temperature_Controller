@@ -17,25 +17,55 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
-							<_hname type="a">IMPL_Package</_hname>
-							<_hid type="a">GUID 682fe33e-0545-42e4-b788-b6aab98dcd8e</_hid>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Software_Package</_hname>
+							<_hid type="a">GUID afb0e42d-a399-4819-bb39-46f0fd0f0fbf</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.13.2020::11:50:53</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.13.2020::11:50:53</_modifiedTime>
-			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">8.13.2020::11:50:53</weakCGTime>
-			<strongCGTime type="a">8.13.2020::11:44:4</strongCGTime>
+			<_modifiedTimeWeak type="a">9.8.2020::7:16:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.8.2020::7:17:4</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">9.8.2020::7:17:4</weakCGTime>
+			<strongCGTime type="a">9.3.2020::9:19:40</strongCGTime>
 			<_defaultComposite type="s">GUID d6736042-00b6-487d-a972-9af403241c35</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">8.13.2020::11:42:52</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">9.8.2020::7:17:4</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID eea7d2aa-663c-4353-b81f-1d1403d0bd0c</value>
+				<value>GUID d6736042-00b6-487d-a972-9af403241c35</value>
+			</AggregatesList>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<_id type="a">GUID eea7d2aa-663c-4353-b81f-1d1403d0bd0c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Mode_Manager</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Software_Package</_hname>
+							<_hid type="a">GUID afb0e42d-a399-4819-bb39-46f0fd0f0fbf</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">9.8.2020::7:17:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.8.2020::7:17:4</_modifiedTime>
+			<weakCGTime type="a">9.8.2020::7:17:4</weakCGTime>
+			<strongCGTime type="a">9.8.2020::7:17:4</strongCGTime>
+			<_defaultComposite type="s">GUID 17627e5d-3bff-46b1-8602-c876a3cbb59b</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">9.8.2020::7:17:4</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 2e39fc11-8015-44da-b891-0dac3960e8a8</value>
-				<value>GUID d6736042-00b6-487d-a972-9af403241c35</value>
+				<value>GUID 17627e5d-3bff-46b1-8602-c876a3cbb59b</value>
 			</AggregatesList>
 		</ISubsystem>
 		<IDiagram type="e">
@@ -362,8 +392,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.13.2020::11:47:24</_modifiedTime>
-			<_lastModifiedTime type="a">8.13.2020::11:47:24</_lastModifiedTime>
+			<_modifiedTime type="a">9.8.2020::7:17:4</_modifiedTime>
+			<_lastModifiedTime type="a">9.8.2020::7:17:4</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -371,7 +401,7 @@
 			<_defaultSubsystem type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">ISubsystem</_hm2Class>
-					<_hid type="a">GUID 5fc081cd-a135-4840-b550-8657d774bc93</_hid>
+					<_hid type="a">GUID eea7d2aa-663c-4353-b81f-1d1403d0bd0c</_hid>
 				</IHandle>
 			</_defaultSubsystem>
 			<AggregatesList type="e">
@@ -441,7 +471,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID d6736042-00b6-487d-a972-9af403241c35</_hid>
+					<_hid type="a">GUID 17627e5d-3bff-46b1-8602-c876a3cbb59b</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
@@ -582,6 +612,9 @@
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">2</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIObjectInstance type="e">
 			<_id type="a">GUID d62d98f4-8f8d-4183-97fa-9f338e1a04a0</_id>
@@ -703,6 +736,9 @@
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">2</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIObjectInstance type="e">
 			<_id type="a">GUID d4a268f0-7764-4f21-9a29-5e8ffca96422</_id>
@@ -792,6 +828,9 @@
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">2</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIObjectInstance type="e">
 			<_id type="a">GUID 27bc81cc-3770-4512-a9b5-539f3abac830</_id>
@@ -881,6 +920,9 @@
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">2</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIClass type="e">
 			<_id type="a">GUID 8451bc93-ba79-47f4-9809-28745b55e483</_id>
@@ -1716,12 +1758,12 @@
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
 		<IClass type="e">
-			<_id type="a">GUID d6736042-00b6-487d-a972-9af403241c35</_id>
+			<_id type="a">GUID 17627e5d-3bff-46b1-8602-c876a3cbb59b</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">8.13.2020::11:50:32</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.13.2020::11:50:32</_modifiedTime>
-			<weakCGTime type="a">8.13.2020::11:50:32</weakCGTime>
+			<_modifiedTimeWeak type="a">9.8.2020::7:17:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.8.2020::7:17:4</_modifiedTime>
+			<weakCGTime type="a">9.8.2020::7:17:4</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -1729,444 +1771,12 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
+				<value>GUID 0d0edf69-c568-491f-b859-988d974640bf</value>
+				<value>GUID b3da043b-0d9c-4ecc-aa48-4310dbc22839</value>
 				<value>GUID ac81dcae-8f62-4391-867c-23ff7965810e</value>
 				<value>GUID 1e686823-0b6c-462b-9f2a-8c3ff6308cf2</value>
-				<value>GUID b3da043b-0d9c-4ecc-aa48-4310dbc22839</value>
-				<value>GUID 0d0edf69-c568-491f-b859-988d974640bf</value>
 			</AggregatesList>
 		</IClass>
-		<IModule type="e">
-			<_id type="a">GUID ac81dcae-8f62-4391-867c-23ff7965810e</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">Mode_Manager_Class_Header</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">1</size>
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes::Files</_hsubsystem>
-							<_hname type="a">Implementation_File</_hname>
-							<_hid type="a">GUID 76068085-5ce8-416c-81a0-105fa38a041d</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.13.2020::11:49:48</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.13.2020::11:49:48</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 8285be76-e86a-4ee4-8fee-52c986a39f7b</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_inverse>
-			<_implicitClass type="p"><IClass type="e">
-				<_id type="a">GUID 8285be76-e86a-4ee4-8fee-52c986a39f7b</_id>
-				<_myState type="a">10240</_myState>
-				<_name type="a">Mode_Manager_Class_Header</_name>
-				<_modifiedTimeWeak type="a">8.13.2020::11:49:48</_modifiedTimeWeak>
-				<_theMainDiagram type="r">
-					<IHandle type="e">
-						<_hm2Class type="a">IDiagram</_hm2Class>
-						<_hid type="a">GUID 2e39fc11-8015-44da-b891-0dac3960e8a8</_hid>
-					</IHandle>
-				</_theMainDiagram>
-				<_modifiedTime type="a">8.13.2020::11:49:48</_modifiedTime>
-				<_lastID type="a">1</_lastID>
-				<weakCGTime type="a">8.13.2020::11:49:48</weakCGTime>
-				<strongCGTime type="a">8.13.2020::11:43:0</strongCGTime>
-				<_itsStateChart type="r">
-					<IHandle type="e">
-					</IHandle>
-				</_itsStateChart>
-				<_classModifier type="a">Unspecified</_classModifier>
-				<AggregatesList type="e">
-					<value>GUID 2ae17ab6-de1c-4b7a-8a4e-abd37ee6fc4b</value>
-					<value>GUID 7cba8d21-3f09-4477-acaf-7d908f99f1c6</value>
-					<value>GUID c63a4e91-9270-48d9-b965-cb78ab09f831</value>
-				</AggregatesList>
-			</IClass>
-			<IDependency type="e">
-				<_id type="a">GUID 2ae17ab6-de1c-4b7a-8a4e-abd37ee6fc4b</_id>
-				<_myState type="a">2048</_myState>
-				<_name type="a">Mode_Manager_Internal_Design</_name>
-				<Stereotypes type="c">
-					<IRPYRawContainer type="e">
-						<size type="a">1</size>
-						
-							<IHandle type="e">
-								<_hm2Class type="a">IStereotype</_hm2Class>
-								<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
-								<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes::Files</_hsubsystem>
-								<_hname type="a">Implemented_Element</_hname>
-								<_hid type="a">GUID e1410ed5-8b64-43ee-a054-e77fd03a4de8</_hid>
-							</IHandle>
-						
-					</IRPYRawContainer>
-				</Stereotypes>
-				<_modifiedTimeWeak type="a">8.13.2020::11:47:12</_modifiedTimeWeak>
-				<_modifiedTime type="a">8.13.2020::11:47:12</_modifiedTime>
-				<_dependsOn type="r">
-					<INObjectHandle type="e">
-						<_hm2Class type="a">IClass</_hm2Class>
-						<_hfilename type="a">.\Home_Temperature_Controller_Internal_Design.sbsx</_hfilename>
-						<_hsubsystem type="a">Home_Temperature_Controller_Internal_Design::Mode_Manager_Internal_Design</_hsubsystem>
-						<_hname type="a">Mode_Manager_Internal_Design</_hname>
-						<_hid type="a">GUID 12aa3a03-405c-4d0e-9391-d29242d1bfb6</_hid>
-					</INObjectHandle>
-				</_dependsOn>
-				<_dependent type="r">
-					<INObjectHandle type="e">
-						<_hm2Class type="a">IClass</_hm2Class>
-						<_hid type="a">GUID 8285be76-e86a-4ee4-8fee-52c986a39f7b</_hid>
-					</INObjectHandle>
-				</_dependent>
-			</IDependency>
-			<IMHyperLink type="e">
-				<_id type="a">GUID 7cba8d21-3f09-4477-acaf-7d908f99f1c6</_id>
-				<_modifiedTimeWeak type="a">8.13.2020::11:49:48</_modifiedTimeWeak>
-				<_modifiedTime type="a">8.13.2020::11:49:48</_modifiedTime>
-				<_dependsOn type="r">
-					<INObjectHandle type="e">
-					</INObjectHandle>
-				</_dependsOn>
-				<_linkDispName type="a">Mode_Manager_Class.h</_linkDispName>
-				<_linkType type="a">FREE</_linkType>
-				<_linkTarget type="a">..\src\Mode_Manager\Mode_Manager_Class.h</_linkTarget>
-				<isConfigurationFileHyperLink type="a">0</isConfigurationFileHyperLink>
-			</IMHyperLink>
-			<ITag type="e">
-				<_id type="a">GUID c63a4e91-9270-48d9-b965-cb78ab09f831</_id>
-				<_myState type="a">8192</_myState>
-				<_name type="a">File_Name</_name>
-				<_modifiedTimeWeak type="a">8.13.2020::11:43:6</_modifiedTimeWeak>
-				<_modifiedTime type="a">8.13.2020::11:43:6</_modifiedTime>
-				<_typeOf type="r">
-					<IHandle type="e">
-						<_hm2Class type="a">IType</_hm2Class>
-						<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
-						<_hname type="a">RhpString</_hname>
-						<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
-					</IHandle>
-				</_typeOf>
-				<_isOrdered type="a">0</_isOrdered>
-				<_base type="r">
-					<IHandle type="e">
-						<_hm2Class type="a">ITag</_hm2Class>
-						<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
-						<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes::Files</_hsubsystem>
-						<_hclass type="a">Implementation_File</_hclass>
-						<_hname type="a">File_Name</_hname>
-						<_hid type="a">GUID b0ede556-fe02-4ae9-ae12-b64dfa7c02f0</_hid>
-					</IHandle>
-				</_base>
-				<AggregatesList type="e">
-					<value>GUID 306f3bdb-2781-4dde-9656-eaf63e455fa7</value>
-				</AggregatesList>
-			</ITag>
-			<ILiteralSpecification type="e">
-				<_id type="a">GUID 306f3bdb-2781-4dde-9656-eaf63e455fa7</_id>
-				<_modifiedTimeWeak type="a">8.13.2020::11:43:6</_modifiedTimeWeak>
-				<_modifiedTime type="a">8.13.2020::11:43:6</_modifiedTime>
-				<_value type="a">Mode_Manager_Class.h</_value>
-			</ILiteralSpecification>
-			</_implicitClass>
-			<_partKind type="a">Block</_partKind>
-		</IModule>
-		<IModule type="e">
-			<_id type="a">GUID 1e686823-0b6c-462b-9f2a-8c3ff6308cf2</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">Mode_Manager_Class_Source</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">1</size>
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes::Files</_hsubsystem>
-							<_hname type="a">Implementation_File</_hname>
-							<_hid type="a">GUID 76068085-5ce8-416c-81a0-105fa38a041d</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.13.2020::11:50:32</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.13.2020::11:50:32</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID ab4321f4-6c0f-48b4-a7d7-761c1eb1b917</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_inverse>
-			<_implicitClass type="p"><IClass type="e">
-				<_id type="a">GUID ab4321f4-6c0f-48b4-a7d7-761c1eb1b917</_id>
-				<_myState type="a">10240</_myState>
-				<_name type="a">Mode_Manager_Class_Source</_name>
-				<_modifiedTimeWeak type="a">8.13.2020::11:50:32</_modifiedTimeWeak>
-				<_theMainDiagram type="r">
-					<IHandle type="e">
-						<_hm2Class type="a">IDiagram</_hm2Class>
-						<_hid type="a">GUID 2e39fc11-8015-44da-b891-0dac3960e8a8</_hid>
-					</IHandle>
-				</_theMainDiagram>
-				<_modifiedTime type="a">8.13.2020::11:50:32</_modifiedTime>
-				<_lastID type="a">1</_lastID>
-				<weakCGTime type="a">8.13.2020::11:50:32</weakCGTime>
-				<strongCGTime type="a">8.13.2020::11:43:24</strongCGTime>
-				<_itsStateChart type="r">
-					<IHandle type="e">
-					</IHandle>
-				</_itsStateChart>
-				<_classModifier type="a">Unspecified</_classModifier>
-				<AggregatesList type="e">
-					<value>GUID d9ebb3a0-9e69-4ec1-9164-3aa2302caca2</value>
-					<value>GUID 5580b7a8-9b5d-44cd-a8e3-395639f595d3</value>
-					<value>GUID 5da278cc-90f1-469e-a92e-441408418c13</value>
-				</AggregatesList>
-			</IClass>
-			<IDependency type="e">
-				<_id type="a">GUID d9ebb3a0-9e69-4ec1-9164-3aa2302caca2</_id>
-				<_myState type="a">2048</_myState>
-				<_name type="a">Mode_Manager_Internal_Design</_name>
-				<Stereotypes type="c">
-					<IRPYRawContainer type="e">
-						<size type="a">1</size>
-						
-							<IHandle type="e">
-								<_hm2Class type="a">IStereotype</_hm2Class>
-								<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
-								<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes::Files</_hsubsystem>
-								<_hname type="a">Implemented_Element</_hname>
-								<_hid type="a">GUID e1410ed5-8b64-43ee-a054-e77fd03a4de8</_hid>
-							</IHandle>
-						
-					</IRPYRawContainer>
-				</Stereotypes>
-				<_modifiedTimeWeak type="a">8.13.2020::11:47:17</_modifiedTimeWeak>
-				<_modifiedTime type="a">8.13.2020::11:47:17</_modifiedTime>
-				<_dependsOn type="r">
-					<INObjectHandle type="e">
-						<_hm2Class type="a">IClass</_hm2Class>
-						<_hfilename type="a">.\Home_Temperature_Controller_Internal_Design.sbsx</_hfilename>
-						<_hsubsystem type="a">Home_Temperature_Controller_Internal_Design::Mode_Manager_Internal_Design</_hsubsystem>
-						<_hname type="a">Mode_Manager_Internal_Design</_hname>
-						<_hid type="a">GUID 12aa3a03-405c-4d0e-9391-d29242d1bfb6</_hid>
-					</INObjectHandle>
-				</_dependsOn>
-				<_dependent type="r">
-					<INObjectHandle type="e">
-						<_hm2Class type="a">IClass</_hm2Class>
-						<_hid type="a">GUID ab4321f4-6c0f-48b4-a7d7-761c1eb1b917</_hid>
-					</INObjectHandle>
-				</_dependent>
-			</IDependency>
-			<IMHyperLink type="e">
-				<_id type="a">GUID 5580b7a8-9b5d-44cd-a8e3-395639f595d3</_id>
-				<_modifiedTimeWeak type="a">8.13.2020::11:50:32</_modifiedTimeWeak>
-				<_modifiedTime type="a">8.13.2020::11:50:32</_modifiedTime>
-				<_dependsOn type="r">
-					<INObjectHandle type="e">
-					</INObjectHandle>
-				</_dependsOn>
-				<_linkDispName type="a">Mode_Manager_Class.c</_linkDispName>
-				<_linkType type="a">FREE</_linkType>
-				<_linkTarget type="a">..\src\Mode_Manager\Mode_Manager_Class.c</_linkTarget>
-				<isConfigurationFileHyperLink type="a">0</isConfigurationFileHyperLink>
-			</IMHyperLink>
-			<ITag type="e">
-				<_id type="a">GUID 5da278cc-90f1-469e-a92e-441408418c13</_id>
-				<_myState type="a">8192</_myState>
-				<_name type="a">File_Name</_name>
-				<_modifiedTimeWeak type="a">8.13.2020::11:43:31</_modifiedTimeWeak>
-				<_modifiedTime type="a">8.13.2020::11:43:31</_modifiedTime>
-				<_typeOf type="r">
-					<IHandle type="e">
-						<_hm2Class type="a">IType</_hm2Class>
-						<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
-						<_hname type="a">RhpString</_hname>
-						<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
-					</IHandle>
-				</_typeOf>
-				<_isOrdered type="a">0</_isOrdered>
-				<_base type="r">
-					<IHandle type="e">
-						<_hm2Class type="a">ITag</_hm2Class>
-						<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
-						<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes::Files</_hsubsystem>
-						<_hclass type="a">Implementation_File</_hclass>
-						<_hname type="a">File_Name</_hname>
-						<_hid type="a">GUID b0ede556-fe02-4ae9-ae12-b64dfa7c02f0</_hid>
-					</IHandle>
-				</_base>
-				<AggregatesList type="e">
-					<value>GUID 0f502c84-2de7-4bf4-82ca-116e482feb5a</value>
-				</AggregatesList>
-			</ITag>
-			<ILiteralSpecification type="e">
-				<_id type="a">GUID 0f502c84-2de7-4bf4-82ca-116e482feb5a</_id>
-				<_modifiedTimeWeak type="a">8.13.2020::11:43:31</_modifiedTimeWeak>
-				<_modifiedTime type="a">8.13.2020::11:43:31</_modifiedTime>
-				<_value type="a">Mode_Manager_Class.c</_value>
-			</ILiteralSpecification>
-			</_implicitClass>
-			<_partKind type="a">Block</_partKind>
-		</IModule>
-		<IModule type="e">
-			<_id type="a">GUID b3da043b-0d9c-4ecc-aa48-4310dbc22839</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">HTC_Mode_Header</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">1</size>
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes::Files</_hsubsystem>
-							<_hname type="a">Implementation_File</_hname>
-							<_hid type="a">GUID 76068085-5ce8-416c-81a0-105fa38a041d</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.13.2020::11:49:15</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.13.2020::11:49:15</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 592d207d-ec61-4bce-91c1-738449c16723</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_inverse>
-			<_implicitClass type="p"><IClass type="e">
-				<_id type="a">GUID 592d207d-ec61-4bce-91c1-738449c16723</_id>
-				<_myState type="a">10240</_myState>
-				<_name type="a">HTC_Mode_Header</_name>
-				<_modifiedTimeWeak type="a">8.13.2020::11:49:15</_modifiedTimeWeak>
-				<_theMainDiagram type="r">
-					<IHandle type="e">
-						<_hm2Class type="a">IDiagram</_hm2Class>
-						<_hid type="a">GUID 2e39fc11-8015-44da-b891-0dac3960e8a8</_hid>
-					</IHandle>
-				</_theMainDiagram>
-				<_modifiedTime type="a">8.13.2020::11:49:15</_modifiedTime>
-				<_lastID type="a">1</_lastID>
-				<weakCGTime type="a">8.13.2020::11:49:15</weakCGTime>
-				<strongCGTime type="a">8.13.2020::11:43:48</strongCGTime>
-				<_itsStateChart type="r">
-					<IHandle type="e">
-					</IHandle>
-				</_itsStateChart>
-				<_classModifier type="a">Unspecified</_classModifier>
-				<AggregatesList type="e">
-					<value>GUID 94da470c-ee11-4648-8f1f-f673d49b0712</value>
-					<value>GUID e12a79ef-2ee9-45ac-baf7-3c005df608ba</value>
-					<value>GUID 2071cf94-3ee5-4c5b-ad65-f89e1f27d24c</value>
-				</AggregatesList>
-			</IClass>
-			<IDependency type="e">
-				<_id type="a">GUID 94da470c-ee11-4648-8f1f-f673d49b0712</_id>
-				<_myState type="a">2048</_myState>
-				<_name type="a">HTC_Mode</_name>
-				<Stereotypes type="c">
-					<IRPYRawContainer type="e">
-						<size type="a">1</size>
-						
-							<IHandle type="e">
-								<_hm2Class type="a">IStereotype</_hm2Class>
-								<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
-								<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes::Files</_hsubsystem>
-								<_hname type="a">Implemented_Element</_hname>
-								<_hid type="a">GUID e1410ed5-8b64-43ee-a054-e77fd03a4de8</_hid>
-							</IHandle>
-						
-					</IRPYRawContainer>
-				</Stereotypes>
-				<_modifiedTimeWeak type="a">8.13.2020::11:47:8</_modifiedTimeWeak>
-				<_modifiedTime type="a">8.13.2020::11:47:8</_modifiedTime>
-				<_dependsOn type="r">
-					<INObjectHandle type="e">
-						<_hm2Class type="a">IClass</_hm2Class>
-						<_hfilename type="a">.\Home_Temperature_Controller.sbsx</_hfilename>
-						<_hsubsystem type="a">Home_Temperature_Controller::Mode_Manager</_hsubsystem>
-						<_hname type="a">HTC_Mode</_hname>
-						<_hid type="a">GUID cb1ad498-ab5c-4b17-b62c-33df92ddf43e</_hid>
-					</INObjectHandle>
-				</_dependsOn>
-				<_dependent type="r">
-					<INObjectHandle type="e">
-						<_hm2Class type="a">IClass</_hm2Class>
-						<_hid type="a">GUID 592d207d-ec61-4bce-91c1-738449c16723</_hid>
-					</INObjectHandle>
-				</_dependent>
-			</IDependency>
-			<IMHyperLink type="e">
-				<_id type="a">GUID e12a79ef-2ee9-45ac-baf7-3c005df608ba</_id>
-				<_modifiedTimeWeak type="a">8.13.2020::11:49:15</_modifiedTimeWeak>
-				<_modifiedTime type="a">8.13.2020::11:49:15</_modifiedTime>
-				<_dependsOn type="r">
-					<INObjectHandle type="e">
-					</INObjectHandle>
-				</_dependsOn>
-				<_linkDispName type="a">HTC_Mode.h</_linkDispName>
-				<_linkType type="a">FREE</_linkType>
-				<_linkTarget type="a">..\src\Mode_Manager\HTC_Mode.h</_linkTarget>
-				<isConfigurationFileHyperLink type="a">0</isConfigurationFileHyperLink>
-			</IMHyperLink>
-			<ITag type="e">
-				<_id type="a">GUID 2071cf94-3ee5-4c5b-ad65-f89e1f27d24c</_id>
-				<_myState type="a">8192</_myState>
-				<_name type="a">File_Name</_name>
-				<_modifiedTimeWeak type="a">8.13.2020::11:44:16</_modifiedTimeWeak>
-				<_modifiedTime type="a">8.13.2020::11:44:16</_modifiedTime>
-				<_typeOf type="r">
-					<IHandle type="e">
-						<_hm2Class type="a">IType</_hm2Class>
-						<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
-						<_hname type="a">RhpString</_hname>
-						<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
-					</IHandle>
-				</_typeOf>
-				<_isOrdered type="a">0</_isOrdered>
-				<_base type="r">
-					<IHandle type="e">
-						<_hm2Class type="a">ITag</_hm2Class>
-						<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
-						<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes::Files</_hsubsystem>
-						<_hclass type="a">Implementation_File</_hclass>
-						<_hname type="a">File_Name</_hname>
-						<_hid type="a">GUID b0ede556-fe02-4ae9-ae12-b64dfa7c02f0</_hid>
-					</IHandle>
-				</_base>
-				<AggregatesList type="e">
-					<value>GUID ef62c0c8-4983-4213-8b28-4c3cbb44408e</value>
-				</AggregatesList>
-			</ITag>
-			<ILiteralSpecification type="e">
-				<_id type="a">GUID ef62c0c8-4983-4213-8b28-4c3cbb44408e</_id>
-				<_modifiedTimeWeak type="a">8.13.2020::11:44:16</_modifiedTimeWeak>
-				<_modifiedTime type="a">8.13.2020::11:44:16</_modifiedTime>
-				<_value type="a">HTC_Mode_Header.h</_value>
-			</ILiteralSpecification>
-			</_implicitClass>
-			<_partKind type="a">Block</_partKind>
-		</IModule>
 		<IModule type="e">
 			<_id type="a">GUID 0d0edf69-c568-491f-b859-988d974640bf</_id>
 			<_myState type="a">8192</_myState>
@@ -2178,15 +1788,15 @@
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
 							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes::Files</_hsubsystem>
+							<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
 							<_hname type="a">Implementation_File</_hname>
 							<_hid type="a">GUID 76068085-5ce8-416c-81a0-105fa38a041d</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.13.2020::11:48:36</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.13.2020::11:48:36</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.8.2020::7:17:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.8.2020::7:17:4</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -2235,7 +1845,7 @@
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
 								<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
-								<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes::Files</_hsubsystem>
+								<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
 								<_hname type="a">Implemented_Element</_hname>
 								<_hid type="a">GUID e1410ed5-8b64-43ee-a054-e77fd03a4de8</_hid>
 							</IHandle>
@@ -2292,7 +1902,7 @@
 					<IHandle type="e">
 						<_hm2Class type="a">ITag</_hm2Class>
 						<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
-						<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes::Files</_hsubsystem>
+						<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
 						<_hclass type="a">Implementation_File</_hclass>
 						<_hname type="a">File_Name</_hname>
 						<_hid type="a">GUID b0ede556-fe02-4ae9-ae12-b64dfa7c02f0</_hid>
@@ -2309,8 +1919,455 @@
 				<_value type="a">E_HTC_Mode.h</_value>
 			</ILiteralSpecification>
 			</_implicitClass>
-			<_partKind type="a">Block</_partKind>
 		</IModule>
+		<IModule type="e">
+			<_id type="a">GUID b3da043b-0d9c-4ecc-aa48-4310dbc22839</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">HTC_Mode_Header</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Implementation_File</_hname>
+							<_hid type="a">GUID 76068085-5ce8-416c-81a0-105fa38a041d</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">9.8.2020::7:17:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.8.2020::7:17:4</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 592d207d-ec61-4bce-91c1-738449c16723</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID 592d207d-ec61-4bce-91c1-738449c16723</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">HTC_Mode_Header</_name>
+				<_modifiedTimeWeak type="a">8.13.2020::11:49:15</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hid type="a">GUID 2e39fc11-8015-44da-b891-0dac3960e8a8</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">8.13.2020::11:49:15</_modifiedTime>
+				<_lastID type="a">1</_lastID>
+				<weakCGTime type="a">8.13.2020::11:49:15</weakCGTime>
+				<strongCGTime type="a">8.13.2020::11:43:48</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID 94da470c-ee11-4648-8f1f-f673d49b0712</value>
+					<value>GUID e12a79ef-2ee9-45ac-baf7-3c005df608ba</value>
+					<value>GUID 2071cf94-3ee5-4c5b-ad65-f89e1f27d24c</value>
+				</AggregatesList>
+			</IClass>
+			<IDependency type="e">
+				<_id type="a">GUID 94da470c-ee11-4648-8f1f-f673d49b0712</_id>
+				<_myState type="a">2048</_myState>
+				<_name type="a">HTC_Mode</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+								<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
+								<_hname type="a">Implemented_Element</_hname>
+								<_hid type="a">GUID e1410ed5-8b64-43ee-a054-e77fd03a4de8</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">8.13.2020::11:47:8</_modifiedTimeWeak>
+				<_modifiedTime type="a">8.13.2020::11:47:8</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hfilename type="a">.\Home_Temperature_Controller.sbsx</_hfilename>
+						<_hsubsystem type="a">Home_Temperature_Controller::Mode_Manager</_hsubsystem>
+						<_hname type="a">HTC_Mode</_hname>
+						<_hid type="a">GUID cb1ad498-ab5c-4b17-b62c-33df92ddf43e</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_dependent type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 592d207d-ec61-4bce-91c1-738449c16723</_hid>
+					</INObjectHandle>
+				</_dependent>
+			</IDependency>
+			<IMHyperLink type="e">
+				<_id type="a">GUID e12a79ef-2ee9-45ac-baf7-3c005df608ba</_id>
+				<_modifiedTimeWeak type="a">8.13.2020::11:49:15</_modifiedTimeWeak>
+				<_modifiedTime type="a">8.13.2020::11:49:15</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+					</INObjectHandle>
+				</_dependsOn>
+				<_linkDispName type="a">HTC_Mode.h</_linkDispName>
+				<_linkType type="a">FREE</_linkType>
+				<_linkTarget type="a">..\src\Mode_Manager\HTC_Mode.h</_linkTarget>
+				<isConfigurationFileHyperLink type="a">0</isConfigurationFileHyperLink>
+			</IMHyperLink>
+			<ITag type="e">
+				<_id type="a">GUID 2071cf94-3ee5-4c5b-ad65-f89e1f27d24c</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">File_Name</_name>
+				<_modifiedTimeWeak type="a">8.13.2020::11:44:16</_modifiedTimeWeak>
+				<_modifiedTime type="a">8.13.2020::11:44:16</_modifiedTime>
+				<_typeOf type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IType</_hm2Class>
+						<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+						<_hname type="a">RhpString</_hname>
+						<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+					</IHandle>
+				</_typeOf>
+				<_isOrdered type="a">0</_isOrdered>
+				<_base type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">ITag</_hm2Class>
+						<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+						<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
+						<_hclass type="a">Implementation_File</_hclass>
+						<_hname type="a">File_Name</_hname>
+						<_hid type="a">GUID b0ede556-fe02-4ae9-ae12-b64dfa7c02f0</_hid>
+					</IHandle>
+				</_base>
+				<AggregatesList type="e">
+					<value>GUID ef62c0c8-4983-4213-8b28-4c3cbb44408e</value>
+				</AggregatesList>
+			</ITag>
+			<ILiteralSpecification type="e">
+				<_id type="a">GUID ef62c0c8-4983-4213-8b28-4c3cbb44408e</_id>
+				<_modifiedTimeWeak type="a">8.13.2020::11:44:16</_modifiedTimeWeak>
+				<_modifiedTime type="a">8.13.2020::11:44:16</_modifiedTime>
+				<_value type="a">HTC_Mode_Header.h</_value>
+			</ILiteralSpecification>
+			</_implicitClass>
+		</IModule>
+		<IModule type="e">
+			<_id type="a">GUID ac81dcae-8f62-4391-867c-23ff7965810e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Mode_Manager_Class_Header</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Implementation_File</_hname>
+							<_hid type="a">GUID 76068085-5ce8-416c-81a0-105fa38a041d</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">9.8.2020::7:17:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.8.2020::7:17:4</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 8285be76-e86a-4ee4-8fee-52c986a39f7b</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID 8285be76-e86a-4ee4-8fee-52c986a39f7b</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">Mode_Manager_Class_Header</_name>
+				<_modifiedTimeWeak type="a">8.13.2020::11:49:48</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hid type="a">GUID 2e39fc11-8015-44da-b891-0dac3960e8a8</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">8.13.2020::11:49:48</_modifiedTime>
+				<_lastID type="a">1</_lastID>
+				<weakCGTime type="a">8.13.2020::11:49:48</weakCGTime>
+				<strongCGTime type="a">8.13.2020::11:43:0</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID 2ae17ab6-de1c-4b7a-8a4e-abd37ee6fc4b</value>
+					<value>GUID 7cba8d21-3f09-4477-acaf-7d908f99f1c6</value>
+					<value>GUID c63a4e91-9270-48d9-b965-cb78ab09f831</value>
+				</AggregatesList>
+			</IClass>
+			<IDependency type="e">
+				<_id type="a">GUID 2ae17ab6-de1c-4b7a-8a4e-abd37ee6fc4b</_id>
+				<_myState type="a">2048</_myState>
+				<_name type="a">Mode_Manager_Internal_Design</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+								<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
+								<_hname type="a">Implemented_Element</_hname>
+								<_hid type="a">GUID e1410ed5-8b64-43ee-a054-e77fd03a4de8</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">8.13.2020::11:47:12</_modifiedTimeWeak>
+				<_modifiedTime type="a">8.13.2020::11:47:12</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hfilename type="a">.\Home_Temperature_Controller_Internal_Design.sbsx</_hfilename>
+						<_hsubsystem type="a">Home_Temperature_Controller_Internal_Design::Mode_Manager_Internal_Design</_hsubsystem>
+						<_hname type="a">Mode_Manager_Internal_Design</_hname>
+						<_hid type="a">GUID 12aa3a03-405c-4d0e-9391-d29242d1bfb6</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_dependent type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 8285be76-e86a-4ee4-8fee-52c986a39f7b</_hid>
+					</INObjectHandle>
+				</_dependent>
+			</IDependency>
+			<IMHyperLink type="e">
+				<_id type="a">GUID 7cba8d21-3f09-4477-acaf-7d908f99f1c6</_id>
+				<_modifiedTimeWeak type="a">8.13.2020::11:49:48</_modifiedTimeWeak>
+				<_modifiedTime type="a">8.13.2020::11:49:48</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+					</INObjectHandle>
+				</_dependsOn>
+				<_linkDispName type="a">Mode_Manager_Class.h</_linkDispName>
+				<_linkType type="a">FREE</_linkType>
+				<_linkTarget type="a">..\src\Mode_Manager\Mode_Manager_Class.h</_linkTarget>
+				<isConfigurationFileHyperLink type="a">0</isConfigurationFileHyperLink>
+			</IMHyperLink>
+			<ITag type="e">
+				<_id type="a">GUID c63a4e91-9270-48d9-b965-cb78ab09f831</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">File_Name</_name>
+				<_modifiedTimeWeak type="a">8.13.2020::11:43:6</_modifiedTimeWeak>
+				<_modifiedTime type="a">8.13.2020::11:43:6</_modifiedTime>
+				<_typeOf type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IType</_hm2Class>
+						<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+						<_hname type="a">RhpString</_hname>
+						<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+					</IHandle>
+				</_typeOf>
+				<_isOrdered type="a">0</_isOrdered>
+				<_base type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">ITag</_hm2Class>
+						<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+						<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
+						<_hclass type="a">Implementation_File</_hclass>
+						<_hname type="a">File_Name</_hname>
+						<_hid type="a">GUID b0ede556-fe02-4ae9-ae12-b64dfa7c02f0</_hid>
+					</IHandle>
+				</_base>
+				<AggregatesList type="e">
+					<value>GUID 306f3bdb-2781-4dde-9656-eaf63e455fa7</value>
+				</AggregatesList>
+			</ITag>
+			<ILiteralSpecification type="e">
+				<_id type="a">GUID 306f3bdb-2781-4dde-9656-eaf63e455fa7</_id>
+				<_modifiedTimeWeak type="a">8.13.2020::11:43:6</_modifiedTimeWeak>
+				<_modifiedTime type="a">8.13.2020::11:43:6</_modifiedTime>
+				<_value type="a">Mode_Manager_Class.h</_value>
+			</ILiteralSpecification>
+			</_implicitClass>
+		</IModule>
+		<IModule type="e">
+			<_id type="a">GUID 1e686823-0b6c-462b-9f2a-8c3ff6308cf2</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Mode_Manager_Class_Source</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Implementation_File</_hname>
+							<_hid type="a">GUID 76068085-5ce8-416c-81a0-105fa38a041d</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">9.8.2020::7:17:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.8.2020::7:17:4</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID ab4321f4-6c0f-48b4-a7d7-761c1eb1b917</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID ab4321f4-6c0f-48b4-a7d7-761c1eb1b917</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">Mode_Manager_Class_Source</_name>
+				<_modifiedTimeWeak type="a">8.13.2020::11:50:32</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hid type="a">GUID 2e39fc11-8015-44da-b891-0dac3960e8a8</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">8.13.2020::11:50:32</_modifiedTime>
+				<_lastID type="a">1</_lastID>
+				<weakCGTime type="a">8.13.2020::11:50:32</weakCGTime>
+				<strongCGTime type="a">8.13.2020::11:43:24</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID d9ebb3a0-9e69-4ec1-9164-3aa2302caca2</value>
+					<value>GUID 5580b7a8-9b5d-44cd-a8e3-395639f595d3</value>
+					<value>GUID 5da278cc-90f1-469e-a92e-441408418c13</value>
+				</AggregatesList>
+			</IClass>
+			<IDependency type="e">
+				<_id type="a">GUID d9ebb3a0-9e69-4ec1-9164-3aa2302caca2</_id>
+				<_myState type="a">2048</_myState>
+				<_name type="a">Mode_Manager_Internal_Design</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+								<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
+								<_hname type="a">Implemented_Element</_hname>
+								<_hid type="a">GUID e1410ed5-8b64-43ee-a054-e77fd03a4de8</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">8.13.2020::11:47:17</_modifiedTimeWeak>
+				<_modifiedTime type="a">8.13.2020::11:47:17</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hfilename type="a">.\Home_Temperature_Controller_Internal_Design.sbsx</_hfilename>
+						<_hsubsystem type="a">Home_Temperature_Controller_Internal_Design::Mode_Manager_Internal_Design</_hsubsystem>
+						<_hname type="a">Mode_Manager_Internal_Design</_hname>
+						<_hid type="a">GUID 12aa3a03-405c-4d0e-9391-d29242d1bfb6</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_dependent type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID ab4321f4-6c0f-48b4-a7d7-761c1eb1b917</_hid>
+					</INObjectHandle>
+				</_dependent>
+			</IDependency>
+			<IMHyperLink type="e">
+				<_id type="a">GUID 5580b7a8-9b5d-44cd-a8e3-395639f595d3</_id>
+				<_modifiedTimeWeak type="a">8.13.2020::11:50:32</_modifiedTimeWeak>
+				<_modifiedTime type="a">8.13.2020::11:50:32</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+					</INObjectHandle>
+				</_dependsOn>
+				<_linkDispName type="a">Mode_Manager_Class.c</_linkDispName>
+				<_linkType type="a">FREE</_linkType>
+				<_linkTarget type="a">..\src\Mode_Manager\Mode_Manager_Class.c</_linkTarget>
+				<isConfigurationFileHyperLink type="a">0</isConfigurationFileHyperLink>
+			</IMHyperLink>
+			<ITag type="e">
+				<_id type="a">GUID 5da278cc-90f1-469e-a92e-441408418c13</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">File_Name</_name>
+				<_modifiedTimeWeak type="a">8.13.2020::11:43:31</_modifiedTimeWeak>
+				<_modifiedTime type="a">8.13.2020::11:43:31</_modifiedTime>
+				<_typeOf type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IType</_hm2Class>
+						<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+						<_hname type="a">RhpString</_hname>
+						<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+					</IHandle>
+				</_typeOf>
+				<_isOrdered type="a">0</_isOrdered>
+				<_base type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">ITag</_hm2Class>
+						<_hfilename type="a">.\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+						<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
+						<_hclass type="a">Implementation_File</_hclass>
+						<_hname type="a">File_Name</_hname>
+						<_hid type="a">GUID b0ede556-fe02-4ae9-ae12-b64dfa7c02f0</_hid>
+					</IHandle>
+				</_base>
+				<AggregatesList type="e">
+					<value>GUID 0f502c84-2de7-4bf4-82ca-116e482feb5a</value>
+				</AggregatesList>
+			</ITag>
+			<ILiteralSpecification type="e">
+				<_id type="a">GUID 0f502c84-2de7-4bf4-82ca-116e482feb5a</_id>
+				<_modifiedTimeWeak type="a">8.13.2020::11:43:31</_modifiedTimeWeak>
+				<_modifiedTime type="a">8.13.2020::11:43:31</_modifiedTime>
+				<_value type="a">Mode_Manager_Class.c</_value>
+			</ILiteralSpecification>
+			</_implicitClass>
+		</IModule>
+		<IClass type="e">
+			<_id type="a">GUID d6736042-00b6-487d-a972-9af403241c35</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">9.8.2020::7:17:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.8.2020::7:17:4</_modifiedTime>
+			<weakCGTime type="a">9.8.2020::7:17:4</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<Associations type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Associations>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
 		
 	</RHAPSODY-MODEL>
 	<OslcLinks type="c">
