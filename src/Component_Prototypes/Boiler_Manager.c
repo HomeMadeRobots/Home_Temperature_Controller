@@ -113,8 +113,8 @@ const Boiler_Manager_Class Boiler_Manager =
     &Mode_Mgr__Operating_Mode,
 
     /* Inner objects */
-   /* Triggered_Timer* Anti_Bounce_Timer */
-   &Anti_Bounce_Delay
+    /* Triggered_Timer* Anti_Bounce_Timer */
+    &Anti_Bounce_Delay
 };
 
 

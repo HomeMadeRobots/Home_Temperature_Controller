@@ -50,7 +50,7 @@ static void Regulate_Temperature( void );
 /*============================================================================*/
 /* Component_Operations */
 /*============================================================================*/
-void Boiler_Manager__Initialize( void )
+void Boiler_Manager__Stop_Boiler( void )
 {
     Relay_Cmd__Open_Circuit();
 }

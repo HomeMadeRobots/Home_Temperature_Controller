@@ -58,7 +58,7 @@ typedef struct {
 /*============================================================================*/
 /* Component_Operations */
 /*============================================================================*/
-void Boiler_Manager__Initialize( void );
+void Boiler_Manager__Stop_Boiler( void );
 void Boiler_Manager__Pilot_Boiler( void );
 
 
